@@ -1,0 +1,14 @@
+{
+  "name": "isobmff-conformance",
+  "version": "1.0.0",
+  "description": "Software to generate MPEG ISOBMFF Conformance Report",
+  "main": "generate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cyril Concolato",
+  "license": "ISC",
+  "dependencies": {
+    "xslt4node": "^0.3.2"
+  }
+}
