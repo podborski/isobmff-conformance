@@ -1,19 +1,19 @@
 Software to generate MPEG Conformance reports
 
-#Dependencies
+# Dependencies
 This software is developed in JavaScript for NodeJS. It uses the following tools which should be installed on the system:
 - MP4Box from the GPAC project
 - Java with the Saxon XSLT library (provided as saxon9.jar)
 
-#Install
+# Install
 npm install
 
-#Run
+# Run
 node generate.js [folder [report] ]
 - folder is the name of the folder for which the report should be generated. The default is "."
 - report is the name of the HTML file. The default is conformance_report.html, generated in the given folder
 
-#Process
+# Process
 The program first scans all folders for files with some specific extensions (see EXTENSIONS in generate.js).
 
 Then, for each file, it calls MP4Box -diso to generate an XML dump of the structure of the file.
