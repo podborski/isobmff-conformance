@@ -35,9 +35,6 @@
 <Box Type="raw " Specification="mj2"/>
 <Box Type="twos" Specification="mj2"/>
 <Box Type="emsg" Specification="dash"/>
-<Box Type="encf" Specification="p12"/>
-<Box Type="encm" Specification="p12"/>
-<Box Type="enct" Specification="p12"/>
 <Box Type="m4ae" Specification="p14"/>
 <Box Type="meco" Specification="p12"/>
 <Box Type="mere" Specification="p12"/>
@@ -45,7 +42,6 @@
 <Box Type="mha2" Specification="mpeg-h"/>
 <Box Type="mhm1" Specification="mpeg-h"/>
 <Box Type="mhm2" Specification="mpeg-h"/>
-<Box Type="mvc1" Specification="p15"/>
 <Box Type="mvc2" Specification="p15"/>
 <Box Type="mvif" Specification="p15"/>
 <Box Type="pm2t" Specification="p12"/>
@@ -63,7 +59,6 @@
 <Box Type="ecam" Specification="p15"/>
 <Box Type="icam" Specification="p15"/>
 <Box Type="leqi" Specification="drc"/>
-<Box Type="mvcC" Specification="p15"/>
 <Box Type="mvcP" Specification="p15"/>
 <Box Type="pdc1" Specification="drc"/>
 <Box Type="pdi1" Specification="drc"/>
@@ -81,3 +76,38 @@
 <Box Type="uriI" Specification="p12"/>
 <Box Type="vsib" Specification="p15"/>
 <Box Type="vwid" Specification="p15"/>
+<Box Type="lsel" Specification="heif"/>
+<Box Type="imir" Specification="heif"/>
+<Box Type="rtng" Specification="3gpp"/>
+<Box Type="depi" Specification="unknown"/>
+<Box Type="j420" Specification="unknown"/>
+<Box Type="junk" Specification="unknown"/>
+<Box Type="fec " Specification="unknown"/>
+<Box Type="tapt" Specification="unknown"/>
+<Box Type="clef" Specification="unknown"/>
+<Box Type="prof" Specification="unknown"/>
+<Box Type="enof" Specification="unknown"/>
+<Box Type="vsmi" Specification="unknown"/>
+<Box Type="cami" Specification="unknown"/>
+<Box Type="vcmM" Specification="unknown"/>
+<Box Type="vcmC" Specification="unknown"/>
+<Box Type="agsm" Specification="unknown"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

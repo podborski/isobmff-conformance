@@ -22,6 +22,9 @@
 <TrackReferenceTypeBox Size="0" Type="subt" Specification="p12" Container="tref" >
 <TrackReferenceEntry TrackID=""/>
 </TrackReferenceTypeBox>
+<TrackReferenceTypeBox Size="0" Type="thmb" Specification="p12" Container="tref" >
+<TrackReferenceEntry TrackID=""/>
+</TrackReferenceTypeBox>
 <TrackReferenceTypeBox Size="0" Type="mpod" Specification="p14" Container="tref" >
 <TrackReferenceEntry TrackID=""/>
 </TrackReferenceTypeBox>
@@ -53,6 +56,9 @@
 <TrackReferenceEntry TrackID=""/>
 </TrackReferenceTypeBox>
 <TrackReferenceTypeBox Size="0" Type="adrc" Specification="p12" Container="tref" >
+<TrackReferenceEntry TrackID=""/>
+</TrackReferenceTypeBox>
+<TrackReferenceTypeBox Size="0" Type="iloc" Specification="p12" Container="tref" >
 <TrackReferenceEntry TrackID=""/>
 </TrackReferenceTypeBox>
 <TrackReferenceTypeBox Size="0" Type="avcp" Specification="p15" Container="tref" >
@@ -91,125 +97,125 @@
 <ItemReferenceBox Size="0" Type="fdel" Specification="p12" Container="iref" from_item_id="0">
 <ItemReferenceBoxEntry ItemID=""/>
 </ItemReferenceBox>
-<SampleGroupDescriptionBox Size="0" Type="sgpd" Specification="p12" Container="stbl traf" Version="1" Flags="0x0" grouping_type="rap " default_length="0">
+<SampleGroupDescriptionBox Size="0" Type="sgpd" Version="0" Flags="0" Specification="p12" Container="stbl traf" grouping_type="rap ">
 <VisualRandomAccessEntry num_leading_samples_known="yes|no" num_leading_samples="" />
 </SampleGroupDescriptionBox>
-<SampleGroupDescriptionBox Size="0" Type="sgpd" Specification="p12" Container="stbl traf" Version="1" Flags="0x0" grouping_type="roll" default_length="0">
+<SampleGroupDescriptionBox Size="0" Type="sgpd" Version="0" Flags="0" Specification="p12" Container="stbl traf" grouping_type="roll">
 <RollRecoveryEntry roll_distance=""/>
 </SampleGroupDescriptionBox>
-<SampleGroupDescriptionBox Size="0" Type="sgpd" Specification="p12" Container="stbl traf" Version="1" Flags="0x0" grouping_type="prol" default_length="0">
+<SampleGroupDescriptionBox Size="0" Type="sgpd" Version="0" Flags="0" Specification="p12" Container="stbl traf" grouping_type="prol">
 <AudioPreRollEntry roll_distance=""/>
 </SampleGroupDescriptionBox>
-<SampleGroupDescriptionBox Size="0" Type="sgpd" Specification="p12" Container="stbl traf" Version="1" Flags="0x0" grouping_type="tele" default_length="0">
+<SampleGroupDescriptionBox Size="0" Type="sgpd" Version="0" Flags="0" Specification="p12" Container="stbl traf" grouping_type="tele">
 <TemporalLevelEntry level_independently_decodable=""/>
 </SampleGroupDescriptionBox>
-<SampleGroupDescriptionBox Size="0" Type="sgpd" Specification="p15" Container="stbl traf" Version="1" Flags="0x0" grouping_type="seig" default_length="0">
+<SampleGroupDescriptionBox Size="0" Type="sgpd" Version="0" Flags="0" Specification="p15" Container="stbl traf" grouping_type="seig">
 <CENCSampleEncryptionGroupEntry IsEncrypted="" IV_size="" KID="" constant_IV_size=""  constant_IV=""/>
 </SampleGroupDescriptionBox>
-<SampleGroupDescriptionBox Size="0" Type="sgpd" Specification="p15" Container="stbl traf" Version="1" Flags="0x0" grouping_type="oinf" default_length="0">
+<SampleGroupDescriptionBox Size="0" Type="sgpd" Version="0" Flags="0" Specification="p15" Container="stbl traf" grouping_type="oinf">
 <OperatingPointsInformation scalability_mask="Multiview|Spatial scalability|Auxilary|unknown" num_profile_tier_level="" num_operating_points="" dependency_layers="">
  <ProfileTierLevel general_profile_space="" general_tier_flag="" general_profile_idc="" general_profile_compatibility_flags="" general_constraint_indicator_flags="" />
 <OperatingPoint output_layer_set_idx="" max_temporal_id="" layer_count="" minPicWidth="" minPicHeight="" maxPicWidth="" maxPicHeight="" maxChromaFormat="" maxBitDepth="" frame_rate_info_flag="" bit_rate_info_flag="" avgFrameRate="" constantFrameRate="" maxBitRate="" avgBitRate=""/>
 <Layer dependent_layerID="" num_layers_dependent_on="" dependent_on_layerID="" dimension_identifier=""/>
 </OperatingPointsInformation>
 </SampleGroupDescriptionBox>
-<SampleGroupDescriptionBox Size="0" Type="sgpd" Specification="p15" Container="stbl traf" Version="1" Flags="0x0" grouping_type="linf" default_length="0">
+<SampleGroupDescriptionBox Size="0" Type="sgpd" Version="0" Flags="0" Specification="p15" Container="stbl traf" grouping_type="linf">
 <LayerInformation num_layers="">
 <LayerInfoItem layer_id="" min_temporalId="" max_temporalId="" sub_layer_presence_flags=""/>
 </LayerInformation>
 </SampleGroupDescriptionBox>
-<SampleGroupDescriptionBox Size="0" Type="sgpd" Specification="p15" Container="stbl traf" Version="1" Flags="0x0" grouping_type="trif" default_length="0">
+<SampleGroupDescriptionBox Size="0" Type="sgpd" Version="0" Flags="0" Specification="p15" Container="stbl traf" grouping_type="trif">
 <TileRegionGroupEntry ID="" tileGroup="" independent="" full_picture="" filter_disabled="" x="" y="" w="" h="">
 <TileRegionDependency tileID=""/>
 </TileRegionGroupEntry>
 </SampleGroupDescriptionBox>
-<SampleGroupDescriptionBox Size="0" Type="sgpd" Specification="p15" Container="stbl traf" Version="1" Flags="0x0" grouping_type="nalm" default_length="0">
+<SampleGroupDescriptionBox Size="0" Type="sgpd" Version="0" Flags="0" Specification="p15" Container="stbl traf" grouping_type="nalm">
 <NALUMap rle="" large_size="">
 <NALUMapEntry NALU_startNumber="" groupID=""/>
 </NALUMap>
 </SampleGroupDescriptionBox>
-<SampleGroupDescriptionBox Size="0" Type="sgpd" Specification="p15" Container="stbl traf" Version="1" Flags="0x0" grouping_type="avll" default_length="0">
+<SampleGroupDescriptionBox Size="0" Type="sgpd" Version="0" Flags="0" Specification="p15" Container="stbl traf" grouping_type="avll">
 <DefaultSampleGroupDescriptionEntry size="" data=""/>
 </SampleGroupDescriptionBox>
-<SampleGroupDescriptionBox Size="0" Type="sgpd" Specification="p15" Container="stbl traf" Version="1" Flags="0x0" grouping_type="avss" default_length="0">
+<SampleGroupDescriptionBox Size="0" Type="sgpd" Version="0" Flags="0" Specification="p15" Container="stbl traf" grouping_type="avss">
 <DefaultSampleGroupDescriptionEntry size="" data=""/>
 </SampleGroupDescriptionBox>
-<SampleGroupDescriptionBox Size="0" Type="sgpd" Specification="p15" Container="stbl traf" Version="1" Flags="0x0" grouping_type="dtrt" default_length="0">
+<SampleGroupDescriptionBox Size="0" Type="sgpd" Version="0" Flags="0" Specification="p15" Container="stbl traf" grouping_type="dtrt">
 <DefaultSampleGroupDescriptionEntry size="" data=""/>
 </SampleGroupDescriptionBox>
-<SampleGroupDescriptionBox Size="0" Type="sgpd" Specification="p15" Container="stbl traf" Version="1" Flags="0x0" grouping_type="mvif" default_length="0">
+<SampleGroupDescriptionBox Size="0" Type="sgpd" Version="0" Flags="0" Specification="p15" Container="stbl traf" grouping_type="mvif">
 <DefaultSampleGroupDescriptionEntry size="" data=""/>
 </SampleGroupDescriptionBox>
-<SampleGroupDescriptionBox Size="0" Type="sgpd" Specification="p15" Container="stbl traf" Version="1" Flags="0x0" grouping_type="scif" default_length="0">
+<SampleGroupDescriptionBox Size="0" Type="sgpd" Version="0" Flags="0" Specification="p15" Container="stbl traf" grouping_type="scif">
 <DefaultSampleGroupDescriptionEntry size="" data=""/>
 </SampleGroupDescriptionBox>
-<SampleGroupDescriptionBox Size="0" Type="sgpd" Specification="p15" Container="stbl traf" Version="1" Flags="0x0" grouping_type="scnm" default_length="0">
+<SampleGroupDescriptionBox Size="0" Type="sgpd" Version="0" Flags="0" Specification="p15" Container="stbl traf" grouping_type="scnm">
 <DefaultSampleGroupDescriptionEntry size="" data=""/>
 </SampleGroupDescriptionBox>
-<SampleGroupDescriptionBox Size="0" Type="sgpd" Specification="p15" Container="stbl traf" Version="1" Flags="0x0" grouping_type="stsa" default_length="0">
+<SampleGroupDescriptionBox Size="0" Type="sgpd" Version="0" Flags="0" Specification="p15" Container="stbl traf" grouping_type="stsa">
 <DefaultSampleGroupDescriptionEntry size="" data=""/>
 </SampleGroupDescriptionBox>
-<SampleGroupDescriptionBox Size="0" Type="sgpd" Specification="p15" Container="stbl traf" Version="1" Flags="0x0" grouping_type="tsas" default_length="0">
+<SampleGroupDescriptionBox Size="0" Type="sgpd" Version="0" Flags="0" Specification="p15" Container="stbl traf" grouping_type="tsas">
 <DefaultSampleGroupDescriptionEntry size="" data=""/>
 </SampleGroupDescriptionBox>
-<SampleGroupDescriptionBox Size="0" Type="sgpd" Specification="p15" Container="stbl traf" Version="1" Flags="0x0" grouping_type="sync" default_length="0">
+<SampleGroupDescriptionBox Size="0" Type="sgpd" Version="0" Flags="0" Specification="p15" Container="stbl traf" grouping_type="sync">
 <DefaultSampleGroupDescriptionEntry size="" data=""/>
 </SampleGroupDescriptionBox>
-<SampleGroupDescriptionBox Size="0" Type="sgpd" Specification="p15" Container="stbl traf" Version="1" Flags="0x0" grouping_type="tscl" default_length="0">
+<SampleGroupDescriptionBox Size="0" Type="sgpd" Version="0" Flags="0" Specification="p15" Container="stbl traf" grouping_type="tscl">
 <DefaultSampleGroupDescriptionEntry size="" data=""/>
 </SampleGroupDescriptionBox>
-<SampleGroupDescriptionBox Size="0" Type="sgpd" Specification="p15" Container="stbl traf" Version="1" Flags="0x0" grouping_type="vipr" default_length="0">
+<SampleGroupDescriptionBox Size="0" Type="sgpd" Version="0" Flags="0" Specification="p15" Container="stbl traf" grouping_type="vipr">
 <DefaultSampleGroupDescriptionEntry size="" data=""/>
 </SampleGroupDescriptionBox>
-<SampleGroupDescriptionBox Size="0" Type="3gag" Specification="3gpp" Container="stbl traf" Version="1" Flags="0x0" grouping_type="...." default_length="0">
+<SampleGroupDescriptionBox Size="0" Type="sgpd" Version="0" Flags="0" Specification="3gpp" Container="stbl traf" grouping_type="3gag">
 <DefaultSampleGroupDescriptionEntry size="" data=""/>
 </SampleGroupDescriptionBox>
-<SampleGroupDescriptionBox Size="0" Type="avcb" Specification="3gpp" Container="stbl traf" Version="1" Flags="0x0" grouping_type="...." default_length="0">
+<SampleGroupDescriptionBox Size="0" Type="sgpd" Version="0" Flags="0" Specification="3gpp" Container="stbl traf" grouping_type="avcb">
 <DefaultSampleGroupDescriptionEntry size="" data=""/>
 </SampleGroupDescriptionBox>
-<SampleGroupDescriptionBox Size="0" Type="sgpd" Specification="p12" Container="stbl traf" Version="1" Flags="0x0" grouping_type="rash" default_length="0">
+<SampleGroupDescriptionBox Size="0" Type="sgpd" Version="0" Flags="0" Specification="p12" Container="stbl traf" grouping_type="rash">
 <DefaultSampleGroupDescriptionEntry size="" data=""/>
 </SampleGroupDescriptionBox>
-<SampleGroupDescriptionBox Size="0" Type="sgpd" Specification="p12" Container="stbl traf" Version="1" Flags="0x0" grouping_type="alst" default_length="0">
+<SampleGroupDescriptionBox Size="0" Type="sgpd" Version="0" Flags="0" Specification="p12" Container="stbl traf" grouping_type="alst">
 <DefaultSampleGroupDescriptionEntry size="" data=""/>
 </SampleGroupDescriptionBox>
-<SampleGroupDescriptionBox Size="0" Type="sgpd" Specification="p15" Container="stbl traf" Version="1" Flags="0x0" grouping_type="avll" default_length="0">
+<SampleGroupDescriptionBox Size="0" Type="sgpd" Version="0" Flags="0" Specification="p15" Container="stbl traf" grouping_type="avll">
 <DefaultSampleGroupDescriptionEntry size="" data=""/>
 </SampleGroupDescriptionBox>
-<SampleGroupDescriptionBox Size="0" Type="sgpd" Specification="p15" Container="stbl traf" Version="1" Flags="0x0" grouping_type="avss" default_length="0">
+<SampleGroupDescriptionBox Size="0" Type="sgpd" Version="0" Flags="0" Specification="p15" Container="stbl traf" grouping_type="avss">
 <DefaultSampleGroupDescriptionEntry size="" data=""/>
 </SampleGroupDescriptionBox>
-<SampleGroupDescriptionBox Size="0" Type="sgpd" Specification="p15" Container="stbl traf" Version="1" Flags="0x0" grouping_type="dtrt" default_length="0">
+<SampleGroupDescriptionBox Size="0" Type="sgpd" Version="0" Flags="0" Specification="p15" Container="stbl traf" grouping_type="dtrt">
 <DefaultSampleGroupDescriptionEntry size="" data=""/>
 </SampleGroupDescriptionBox>
-<SampleGroupDescriptionBox Size="0" Type="sgpd" Specification="p15" Container="stbl traf" Version="1" Flags="0x0" grouping_type="mvif" default_length="0">
+<SampleGroupDescriptionBox Size="0" Type="sgpd" Version="0" Flags="0" Specification="p15" Container="stbl traf" grouping_type="mvif">
 <DefaultSampleGroupDescriptionEntry size="" data=""/>
 </SampleGroupDescriptionBox>
-<SampleGroupDescriptionBox Size="0" Type="sgpd" Specification="p15" Container="stbl traf" Version="1" Flags="0x0" grouping_type="scif" default_length="0">
+<SampleGroupDescriptionBox Size="0" Type="sgpd" Version="0" Flags="0" Specification="p15" Container="stbl traf" grouping_type="scif">
 <DefaultSampleGroupDescriptionEntry size="" data=""/>
 </SampleGroupDescriptionBox>
-<SampleGroupDescriptionBox Size="0" Type="sgpd" Specification="p15" Container="stbl traf" Version="1" Flags="0x0" grouping_type="scnm" default_length="0">
+<SampleGroupDescriptionBox Size="0" Type="sgpd" Version="0" Flags="0" Specification="p15" Container="stbl traf" grouping_type="scnm">
 <DefaultSampleGroupDescriptionEntry size="" data=""/>
 </SampleGroupDescriptionBox>
-<SampleGroupDescriptionBox Size="0" Type="sgpd" Specification="p15" Container="stbl traf" Version="1" Flags="0x0" grouping_type="stsa" default_length="0">
+<SampleGroupDescriptionBox Size="0" Type="sgpd" Version="0" Flags="0" Specification="p15" Container="stbl traf" grouping_type="stsa">
 <DefaultSampleGroupDescriptionEntry size="" data=""/>
 </SampleGroupDescriptionBox>
-<SampleGroupDescriptionBox Size="0" Type="sgpd" Specification="p15" Container="stbl traf" Version="1" Flags="0x0" grouping_type="tsas" default_length="0">
+<SampleGroupDescriptionBox Size="0" Type="sgpd" Version="0" Flags="0" Specification="p15" Container="stbl traf" grouping_type="tsas">
 <DefaultSampleGroupDescriptionEntry size="" data=""/>
 </SampleGroupDescriptionBox>
-<SampleGroupDescriptionBox Size="0" Type="sgpd" Specification="p15" Container="stbl traf" Version="1" Flags="0x0" grouping_type="sync" default_length="0">
+<SampleGroupDescriptionBox Size="0" Type="sgpd" Version="0" Flags="0" Specification="p15" Container="stbl traf" grouping_type="sync">
 <DefaultSampleGroupDescriptionEntry size="" data=""/>
 </SampleGroupDescriptionBox>
-<SampleGroupDescriptionBox Size="0" Type="sgpd" Specification="p15" Container="stbl traf" Version="1" Flags="0x0" grouping_type="tscl" default_length="0">
+<SampleGroupDescriptionBox Size="0" Type="sgpd" Version="0" Flags="0" Specification="p15" Container="stbl traf" grouping_type="tscl">
 <DefaultSampleGroupDescriptionEntry size="" data=""/>
 </SampleGroupDescriptionBox>
-<SampleGroupDescriptionBox Size="0" Type="sgpd" Specification="p15" Container="stbl traf" Version="1" Flags="0x0" grouping_type="vipr" default_length="0">
+<SampleGroupDescriptionBox Size="0" Type="sgpd" Version="0" Flags="0" Specification="p15" Container="stbl traf" grouping_type="vipr">
 <DefaultSampleGroupDescriptionEntry size="" data=""/>
 </SampleGroupDescriptionBox>
-<SampleGroupDescriptionBox Size="0" Type="sgpd" Specification="3gpp" Container="stbl traf" Version="1" Flags="0x0" grouping_type="3gag" default_length="0">
+<SampleGroupDescriptionBox Size="0" Type="sgpd" Version="0" Flags="0" Specification="3gpp" Container="stbl traf" grouping_type="3gag">
 <DefaultSampleGroupDescriptionEntry size="" data=""/>
 </SampleGroupDescriptionBox>
-<SampleGroupDescriptionBox Size="0" Type="sgpd" Specification="3gpp" Container="stbl traf" Version="1" Flags="0x0" grouping_type="avcb" default_length="0">
+<SampleGroupDescriptionBox Size="0" Type="sgpd" Version="0" Flags="0" Specification="3gpp" Container="stbl traf" grouping_type="avcb">
 <DefaultSampleGroupDescriptionEntry size="" data=""/>
 </SampleGroupDescriptionBox>
 <SampleDescriptionBox Size="0" Type="gnrm" Specification="unknown" Container="stsd" DataReferenceIndex="0" ExtensionDataSize="0">
@@ -223,11 +229,11 @@
 <FragmentSizeEntry size=""/>
 </SampleFragmentEntry>
 </SampleFragmentBox>
-<TrackGroupTypeBox Size="0" Type="msrc" Specification="p12" Container="trgr" Version="0" Flags="0x0" track_group_id="0">
+<TrackGroupTypeBox Size="0" Type="msrc" Version="0" Flags="0" Specification="p12" Container="trgr" track_group_id="0">
 </TrackGroupTypeBox>
-<TrackGroupTypeBox Size="0" Type="ster" Specification="p12" Container="trgr" Version="0" Flags="0x0" track_group_id="0">
+<TrackGroupTypeBox Size="0" Type="ster" Version="0" Flags="0" Specification="p12" Container="trgr" track_group_id="0">
 </TrackGroupTypeBox>
-<TrackGroupTypeBox Size="0" Type="cstg" Specification="p15" Container="trgr" Version="0" Flags="0x0" track_group_id="0">
+<TrackGroupTypeBox Size="0" Type="cstg" Version="0" Flags="0" Specification="p15" Container="trgr" track_group_id="0">
 </TrackGroupTypeBox>
 <FreeSpaceBox Size="0" Type="free" Specification="p12" Container="" dataSize="0">
 </FreeSpaceBox>
@@ -239,37 +245,41 @@
 </ItemDataBox>
 <MovieBox Size="0" Type="moov" Specification="p12" Container="file" >
 </MovieBox>
-<MovieHeaderBox Size="0" Type="mvhd" Specification="p12" Container="moov" Version="0" Flags="0x0" CreationTime="0" ModificationTime="0" TimeScale="0" Duration="0" NextTrackID="1">
+<MovieHeaderBox Size="0" Type="mvhd" Version="0" Flags="0" Specification="p12" Container="moov" CreationTime="0" ModificationTime="0" TimeScale="0" Duration="0" NextTrackID="1">
 </MovieHeaderBox>
-<MovieHeaderBox Size="0" Type="mvhd" Specification="p12" Container="moov" Version="1" Flags="0x0" CreationTime="0" ModificationTime="0" TimeScale="0" Duration="0" NextTrackID="1">
+<MovieHeaderBox Size="0" Type="mvhd" Version="1" Flags="0" Specification="p12" Container="moov" CreationTime="0" ModificationTime="0" TimeScale="0" Duration="0" NextTrackID="1">
 </MovieHeaderBox>
-<MediaHeaderBox Size="0" Type="mdhd" Specification="p12" Container="mdia" Version="0" Flags="0x0" CreationTime="0" ModificationTime="0" TimeScale="0" Duration="0" LanguageCode="und">
+<MediaHeaderBox Size="0" Type="mdhd" Version="0" Flags="0" Specification="p12" Container="mdia" CreationTime="0" ModificationTime="0" TimeScale="0" Duration="0" LanguageCode="und">
 </MediaHeaderBox>
-<MediaHeaderBox Size="0" Type="mdhd" Specification="p12" Container="mdia" Version="1" Flags="0x0" CreationTime="0" ModificationTime="0" TimeScale="0" Duration="0" LanguageCode="und">
+<MediaHeaderBox Size="0" Type="mdhd" Version="1" Flags="0" Specification="p12" Container="mdia" CreationTime="0" ModificationTime="0" TimeScale="0" Duration="0" LanguageCode="und">
 </MediaHeaderBox>
-<VideoMediaHeaderBox Size="0" Type="vmhd" Specification="p12" Container="minf" Version="0" Flags="0x1" >
+<VideoMediaHeaderBox Size="0" Type="vmhd" Version="0" Flags="1" Specification="p12" Container="minf" >
 </VideoMediaHeaderBox>
-<SoundMediaHeaderBox Size="0" Type="smhd" Specification="p12" Container="minf" Version="0" Flags="0x0" >
+<SoundMediaHeaderBox Size="0" Type="smhd" Version="0" Flags="0" Specification="p12" Container="minf" >
 </SoundMediaHeaderBox>
-<HintMediaHeaderBox Size="0" Type="hmhd" Specification="p12" Container="minf" Version="0" Flags="0x0" MaximumPDUSize="0" AveragePDUSize="0" MaxBitRate="0" AverageBitRate="0">
+<HintMediaHeaderBox Size="0" Type="hmhd" Version="0" Flags="0" Specification="p12" Container="minf" MaximumPDUSize="0" AveragePDUSize="0" MaxBitRate="0" AverageBitRate="0">
 </HintMediaHeaderBox>
-<MPEGMediaHeaderBox Size="0" Type="nmhd" Specification="p12" Container="minf" Version="0" Flags="0x0" >
+<MPEGMediaHeaderBox Size="0" Type="nmhd" Version="0" Flags="0" Specification="p12" Container="minf" >
 </MPEGMediaHeaderBox>
-<MPEGMediaHeaderBox Size="0" Type="sthd" Specification="p12" Container="minf" Version="0" Flags="0x0" >
+<MPEGMediaHeaderBox Size="0" Type="sthd" Version="0" Flags="0" Specification="p12" Container="minf" >
 </MPEGMediaHeaderBox>
 <SampleTableBox Size="0" Type="stbl" Specification="p12" Container="minf" >
 </SampleTableBox>
 <DataInformationBox Size="0" Type="dinf" Specification="p12" Container="minf meta" >
 </DataInformationBox>
-<URLDataEntryBox Size="0" Type="url " Specification="p12" Container="dref" Version="0" Flags="0x0" >
+<URLDataEntryBox Size="0" Type="url " Version="0" Flags="0" Specification="p12" Container="dref" >
 </URLDataEntryBox>
-<URNDataEntryBox Size="0" Type="urn " Specification="p12" Container="dref" Version="0" Flags="0x0" >
+<URLDataEntryBox Size="0" Type="url " Version="0" Flags="1" Specification="p12" Container="dref" >
+</URLDataEntryBox>
+<URNDataEntryBox Size="0" Type="urn " Version="0" Flags="0" Specification="p12" Container="dref" >
 </URNDataEntryBox>
-<CopyrightBox Size="0" Type="cprt" Specification="p12" Container="udta" Version="0" Flags="0x0" LanguageCode="und" CopyrightNotice="(null)">
+<URNDataEntryBox Size="0" Type="urn " Version="0" Flags="1" Specification="p12" Container="dref" >
+</URNDataEntryBox>
+<CopyrightBox Size="0" Type="cprt" Version="0" Flags="0" Specification="p12" Container="udta" LanguageCode="und" CopyrightNotice="(null)">
 </CopyrightBox>
-<KindBox Size="0" Type="kind" Specification="p12" Container="udta" Version="0" Flags="0x0" schemeURI="(null)" value="">
+<KindBox Size="0" Type="kind" Version="0" Flags="0" Specification="p12" Container="udta" schemeURI="(null)" value="">
 </KindBox>
-<HandlerBox Size="0" Type="hdlr" Specification="p12" Container="mdia meta" Version="0" Flags="0x0" hdlrType="...." Name="(null)" reserved1="0" reserved2="data:application/octet-string,000000000000000000000000">
+<HandlerBox Size="0" Type="hdlr" Version="0" Flags="0" Specification="p12" Container="mdia meta" hdlrType="" Name="(null)" reserved1="0" reserved2="data:application/octet-string,000000000000000000000000">
 </HandlerBox>
 <TrackBox Size="0" Type="trak" Specification="p12" Container="moov" >
 </TrackBox>
@@ -277,61 +287,77 @@
 </EditBox>
 <UserDataBox Size="0" Type="udta" Specification="p12" Container="moov trak moof traf" >
 </UserDataBox>
-<DataReferenceBox Size="0" Type="dref" Specification="p12" Container="dinf" Version="0" Flags="0x0" >
+<DataReferenceBox Size="0" Type="dref" Version="0" Flags="0" Specification="p12" Container="dinf" >
 </DataReferenceBox>
-<SampleDescriptionBox Size="0" Type="stsd" Specification="p12" Container="stbl" Version="0" Flags="0x0" >
+<SampleDescriptionBox Size="0" Type="stsd" Version="0" Flags="0" Specification="p12" Container="stbl" >
 </SampleDescriptionBox>
-<TimeToSampleBox Size="0" Type="stts" Specification="p12" Container="stbl" Version="0" Flags="0x0" EntryCount="0">
+<TimeToSampleBox Size="0" Type="stts" Version="0" Flags="0" Specification="p12" Container="stbl" EntryCount="0">
 <TimeToSampleEntry SampleDelta="" SampleCount=""/>
 </TimeToSampleBox>
-<CompositionOffsetBox Size="0" Type="ctts" Specification="p12" Container="stbl" Version="0" Flags="0x0" EntryCount="0">
+<CompositionOffsetBox Size="0" Type="ctts" Version="0" Flags="0" Specification="p12" Container="stbl" EntryCount="0">
 <CompositionOffsetEntry CompositionOffset="" SampleCount=""/>
 </CompositionOffsetBox>
-<CompositionOffsetBox Size="0" Type="ctts" Specification="p12" Container="stbl" Version="1" Flags="0x0" EntryCount="0">
+<CompositionOffsetBox Size="0" Type="ctts" Version="1" Flags="0" Specification="p12" Container="stbl" EntryCount="0">
 <CompositionOffsetEntry CompositionOffset="" SampleCount=""/>
 </CompositionOffsetBox>
-<CompositionToDecodeBox Size="0" Type="cslg" Specification="p12" Container="stbl trep" Version="0" Flags="0x0" compositionToDTSShift="0" leastDecodeToDisplayDelta="0" compositionStartTime="0" compositionEndTime="0">
+<CompositionToDecodeBox Size="0" Type="cslg" Version="0" Flags="0" Specification="p12" Container="stbl trep" compositionToDTSShift="0" leastDecodeToDisplayDelta="0" compositionStartTime="0" compositionEndTime="0">
 </CompositionToDecodeBox>
-<CompositionToDecodeBox Size="0" Type="cslg" Specification="p12" Container="stbl trep" Version="1" Flags="0x0" compositionToDTSShift="0" leastDecodeToDisplayDelta="0" compositionStartTime="0" compositionEndTime="0">
+<CompositionToDecodeBox Size="0" Type="cslg" Version="1" Flags="0" Specification="p12" Container="stbl trep" compositionToDTSShift="0" leastDecodeToDisplayDelta="0" compositionStartTime="0" compositionEndTime="0">
 </CompositionToDecodeBox>
-<SyncShadowBox Size="0" Type="stsh" Specification="p12" Container="stbl" Version="0" Flags="0x0" EntryCount="0">
+<SyncShadowBox Size="0" Type="stsh" Version="0" Flags="0" Specification="p12" Container="stbl" EntryCount="0">
 <SyncShadowEntry ShadowedSample="" SyncSample=""/>
 </SyncShadowBox>
-<EditListBox Size="0" Type="elst" Specification="p12" Container="edts" Version="0" Flags="0x0" EntryCount="0">
+<EditListBox Size="0" Type="elst" Version="0" Flags="0" Specification="p12" Container="edts" EntryCount="0">
 <EditListEntry Duration="" MediaTime="" MediaRate=""/>
 </EditListBox>
-<EditListBox Size="0" Type="elst" Specification="p12" Container="edts" Version="1" Flags="0x0" EntryCount="0">
+<EditListBox Size="0" Type="elst" Version="1" Flags="0" Specification="p12" Container="edts" EntryCount="0">
 <EditListEntry Duration="" MediaTime="" MediaRate=""/>
 </EditListBox>
-<SampleToChunkBox Size="0" Type="stsc" Specification="p12" Container="stbl" Version="0" Flags="0x0" EntryCount="0">
+<SampleToChunkBox Size="0" Type="stsc" Version="0" Flags="0" Specification="p12" Container="stbl" EntryCount="0">
 <SampleToChunkEntry FirstChunk="" SamplesPerChunk="" SampleDescriptionIndex=""/>
 </SampleToChunkBox>
-<SampleSizeBox Size="0" Type="stsz" Specification="p12" Container="stbl" Version="0" Flags="0x0" SampleCount="0">
+<SampleSizeBox Size="0" Type="stsz" Version="0" Flags="0" Specification="p12" Container="stbl" SampleCount="0">
 <SampleSizeEntry Size=""/>
 </SampleSizeBox>
-<CompactSampleSizeBox Size="0" Type="stz2" Specification="p12" Container="stbl" Version="0" Flags="0x0" SampleCount="0" SampleSizeBits="0">
+<CompactSampleSizeBox Size="0" Type="stz2" Version="0" Flags="0" Specification="p12" Container="stbl" SampleCount="0" SampleSizeBits="0">
 <SampleSizeEntry Size=""/>
 </CompactSampleSizeBox>
-<ChunkOffsetBox Size="0" Type="stco" Specification="p12" Container="stbl" Version="0" Flags="0x0" EntryCount="0">
+<ChunkOffsetBox Size="0" Type="stco" Version="0" Flags="0" Specification="p12" Container="stbl" EntryCount="0">
 <ChunkEntry offset=""/>
 </ChunkOffsetBox>
-<SyncSampleBox Size="0" Type="stss" Specification="p12" Container="stbl" Version="0" Flags="0x0" EntryCount="0">
+<SyncSampleBox Size="0" Type="stss" Version="0" Flags="0" Specification="p12" Container="stbl" EntryCount="0">
 <SyncSampleEntry sampleNumber=""/>
 </SyncSampleBox>
-<DegradationPriorityBox Size="0" Type="stdp" Specification="p12" Container="stbl" Version="0" Flags="0x0" EntryCount="0">
+<DegradationPriorityBox Size="0" Type="stdp" Version="0" Flags="0" Specification="p12" Container="stbl" EntryCount="0">
 <DegradationPriorityEntry DegradationPriority=""/>
 </DegradationPriorityBox>
-<SampleDependencyTypeBox Size="0" Type="sdtp" Specification="p12" Container="stbl" Version="0" Flags="0x1" SampleCount="0">
+<SampleDependencyTypeBox Size="0" Type="sdtp" Version="0" Flags="1" Specification="p12" Container="stbl" SampleCount="0">
 <SampleDependencyEntry dependsOnOther="unknown|yes|no|RESERVED" dependedOn="unknown|yes|no|RESERVED" hasRedundancy="unknown|yes|no|RESERVED"/>
 </SampleDependencyTypeBox>
-<ChunkLargeOffsetBox Size="0" Type="co64" Specification="p12" Container="stbl" Version="0" Flags="0x0" EntryCount="0">
+<ChunkLargeOffsetBox Size="0" Type="co64" Version="0" Flags="0" Specification="p12" Container="stbl" EntryCount="0">
 <ChunkOffsetEntry offset=""/>
 </ChunkLargeOffsetBox>
 <MediaInformationBox Size="0" Type="minf" Specification="p12" Container="mdia" >
 </MediaInformationBox>
-<TrackHeaderBox Size="0" Type="tkhd" Specification="p12" Container="trak" Version="0" Flags="0x0" CreationTime="0" ModificationTime="0" TrackID="0" Duration="0">
+<TrackHeaderBox Size="0" Type="tkhd" Version="0" Flags="0" Specification="p12" Container="trak" CreationTime="0" ModificationTime="0" TrackID="0" Duration="0">
 </TrackHeaderBox>
-<TrackHeaderBox Size="0" Type="tkhd" Specification="p12" Container="trak" Version="1" Flags="0x0" CreationTime="0" ModificationTime="0" TrackID="0" Duration="0">
+<TrackHeaderBox Size="0" Type="tkhd" Version="0" Flags="1" Specification="p12" Container="trak" CreationTime="0" ModificationTime="0" TrackID="0" Duration="0">
+</TrackHeaderBox>
+<TrackHeaderBox Size="0" Type="tkhd" Version="0" Flags="2" Specification="p12" Container="trak" CreationTime="0" ModificationTime="0" TrackID="0" Duration="0">
+</TrackHeaderBox>
+<TrackHeaderBox Size="0" Type="tkhd" Version="0" Flags="4" Specification="p12" Container="trak" CreationTime="0" ModificationTime="0" TrackID="0" Duration="0">
+</TrackHeaderBox>
+<TrackHeaderBox Size="0" Type="tkhd" Version="0" Flags="8" Specification="p12" Container="trak" CreationTime="0" ModificationTime="0" TrackID="0" Duration="0">
+</TrackHeaderBox>
+<TrackHeaderBox Size="0" Type="tkhd" Version="1" Flags="0" Specification="p12" Container="trak" CreationTime="0" ModificationTime="0" TrackID="0" Duration="0">
+</TrackHeaderBox>
+<TrackHeaderBox Size="0" Type="tkhd" Version="1" Flags="1" Specification="p12" Container="trak" CreationTime="0" ModificationTime="0" TrackID="0" Duration="0">
+</TrackHeaderBox>
+<TrackHeaderBox Size="0" Type="tkhd" Version="1" Flags="2" Specification="p12" Container="trak" CreationTime="0" ModificationTime="0" TrackID="0" Duration="0">
+</TrackHeaderBox>
+<TrackHeaderBox Size="0" Type="tkhd" Version="1" Flags="4" Specification="p12" Container="trak" CreationTime="0" ModificationTime="0" TrackID="0" Duration="0">
+</TrackHeaderBox>
+<TrackHeaderBox Size="0" Type="tkhd" Version="1" Flags="8" Specification="p12" Container="trak" CreationTime="0" ModificationTime="0" TrackID="0" Duration="0">
 </TrackHeaderBox>
 <TrackReferenceBox Size="0" Type="tref" Specification="p12" Container="trak" >
 </TrackReferenceBox>
@@ -339,65 +365,84 @@
 </MediaBox>
 <MovieFragmentRandomAccessBox Size="0" Type="mfra" Specification="p12" Container="file" >
 </MovieFragmentRandomAccessBox>
-<MovieFragmentRandomAccessOffsetBox Size="0" Type="mfro" Specification="p12" Container="mfra" Version="0" Flags="0x0" container_size="0" >
+<MovieFragmentRandomAccessOffsetBox Size="0" Type="mfro" Version="0" Flags="0" Specification="p12" Container="mfra" container_size="0" >
 </MovieFragmentRandomAccessOffsetBox>
-<TrackFragmentRandomAccessBox Size="0" Type="tfra" Specification="p12" Container="mfra" Version="0" Flags="0x0" TrackId="0" number_of_entries="0">
+<TrackFragmentRandomAccessBox Size="0" Type="tfra" Version="0" Flags="0" Specification="p12" Container="mfra" TrackId="0" number_of_entries="0">
 <RandomAccessEntry time="" moof_offset="" traf="" trun="" sample=""/>
 </TrackFragmentRandomAccessBox>
-<TrackFragmentRandomAccessBox Size="0" Type="tfra" Specification="p12" Container="mfra" Version="1" Flags="0x0" TrackId="0" number_of_entries="0">
+<TrackFragmentRandomAccessBox Size="0" Type="tfra" Version="1" Flags="0" Specification="p12" Container="mfra" TrackId="0" number_of_entries="0">
 <RandomAccessEntry time="" moof_offset="" traf="" trun="" sample=""/>
 </TrackFragmentRandomAccessBox>
-<ExtendedLanguageBox Size="0" Type="elng" Specification="p12" Container="mdia" LanguageCode="(null)">
+<ExtendedLanguageBox Size="0" Type="elng" Version="0" Flags="0" Specification="p12" Container="mdia" LanguageCode="(null)">
 </ExtendedLanguageBox>
-<ProgressiveDownloadBox Size="0" Type="pdin" Specification="p12" Container="file" Version="0" Flags="0x1" >
+<ProgressiveDownloadBox Size="0" Type="pdin" Version="0" Flags="1" Specification="p12" Container="file" >
 <DownloadInfo rate="" estimatedTime="" />
 </ProgressiveDownloadBox>
-<SampleGroupBox Size="0" Type="sbgp" Specification="p12" Container="stbl traf" Version="0" Flags="0x0" grouping_type="....">
+<SampleGroupBox Size="0" Type="sbgp" Version="0" Flags="0" Specification="p12" Container="stbl traf" >
 <SampleGroupBoxEntry sample_count="" group_description_index=""/>
 </SampleGroupBox>
-<SampleGroupBox Size="0" Type="sbgp" Specification="p12" Container="stbl traf" Version="1" Flags="0x0" grouping_type="...." grouping_type_parameter="0">
+<SampleGroupBox Size="0" Type="sbgp" Version="1" Flags="0" Specification="p12" Container="stbl traf"  grouping_type_parameter="0">
 <SampleGroupBoxEntry sample_count="" group_description_index=""/>
 </SampleGroupBox>
-<SampleGroupDescriptionBox Size="0" Type="sgpd" Specification="p12" Container="stbl traf" Version="0" Flags="0x0" grouping_type="....">
+<SampleGroupDescriptionBox Size="0" Type="sgpd" Version="0" Flags="0" Specification="p12" Container="stbl traf" >
 <DefaultSampleGroupDescriptionEntry size="" data=""/>
 </SampleGroupDescriptionBox>
-<SampleGroupDescriptionBox Size="0" Type="sgpd" Specification="p12" Container="stbl traf" Version="1" Flags="0x0" grouping_type="...." default_length="0">
+<SampleGroupDescriptionBox Size="0" Type="sgpd" Version="1" Flags="0" Specification="p12" Container="stbl traf"  default_length="0">
 <DefaultSampleGroupDescriptionEntry size="" data=""/>
 </SampleGroupDescriptionBox>
-<SampleGroupDescriptionBox Size="0" Type="sgpd" Specification="p12" Container="stbl traf" Version="2" Flags="0x0" grouping_type="....">
+<SampleGroupDescriptionBox Size="0" Type="sgpd" Version="2" Flags="0" Specification="p12" Container="stbl traf" >
 <DefaultSampleGroupDescriptionEntry size="" data=""/>
 </SampleGroupDescriptionBox>
-<SampleAuxiliaryInfoSizeBox Size="0" Type="saiz" Specification="p12" Container="stbl traf" Version="0" Flags="0x0" default_sample_info_size="0" sample_count="0">
+<SampleAuxiliaryInfoSizeBox Size="0" Type="saiz" Version="0" Flags="0" Specification="p12" Container="stbl traf" default_sample_info_size="0" sample_count="0">
 <SAISize size="" />
 </SampleAuxiliaryInfoSizeBox>
-<SampleAuxiliaryInfoSizeBox Size="0" Type="saiz" Specification="p12" Container="stbl traf" Version="0" Flags="0x1" default_sample_info_size="0" sample_count="0" aux_info_type="0" aux_info_type_parameter="0">
+<SampleAuxiliaryInfoSizeBox Size="0" Type="saiz" Version="0" Flags="0" Specification="p12" Container="stbl traf" default_sample_info_size="0" sample_count="0">
 <SAISize size="" />
 </SampleAuxiliaryInfoSizeBox>
-<SampleAuxiliaryInfoOffsetBox Size="0" Type="saio" Specification="p12" Container="stbl traf" Version="0" Flags="0x0" entry_count="0">
+<SampleAuxiliaryInfoSizeBox Size="0" Type="saiz" Version="0" Flags="1" Specification="p12" Container="stbl traf" default_sample_info_size="0" sample_count="0" aux_info_type="0" aux_info_type_parameter="0">
+<SAISize size="" />
+</SampleAuxiliaryInfoSizeBox>
+<SampleAuxiliaryInfoOffsetBox Size="0" Type="saio" Version="0" Flags="0" Specification="p12" Container="stbl traf" entry_count="0">
 <SAIChunkOffset offset=""/>
 </SampleAuxiliaryInfoOffsetBox>
-<SampleAuxiliaryInfoOffsetBox Size="0" Type="saio" Specification="p12" Container="stbl traf" Version="1" Flags="0x0" entry_count="0">
+<SampleAuxiliaryInfoOffsetBox Size="0" Type="saio" Version="1" Flags="0" Specification="p12" Container="stbl traf" entry_count="0">
 <SAIChunkOffset offset=""/>
 </SampleAuxiliaryInfoOffsetBox>
-<SampleAuxiliaryInfoOffsetBox Size="0" Type="saio" Specification="p12" Container="stbl traf" Version="0" Flags="0x1" entry_count="0" aux_info_type="0" aux_info_type_parameter="0">
+<SampleAuxiliaryInfoOffsetBox Size="0" Type="saio" Version="0" Flags="0" Specification="p12" Container="stbl traf" entry_count="0">
 <SAIChunkOffset offset=""/>
 </SampleAuxiliaryInfoOffsetBox>
-<SampleAuxiliaryInfoOffsetBox Size="0" Type="saio" Specification="p12" Container="stbl traf" Version="1" Flags="0x1" entry_count="0" aux_info_type="0" aux_info_type_parameter="0">
+<SampleAuxiliaryInfoOffsetBox Size="0" Type="saio" Version="0" Flags="1" Specification="p12" Container="stbl traf" entry_count="0" aux_info_type="0" aux_info_type_parameter="0">
 <SAIChunkOffset offset=""/>
 </SampleAuxiliaryInfoOffsetBox>
-<SubSampleInformationBox Size="0" Type="subs" Specification="p12" Container="stbl traf" EntryCount="0">
+<SampleAuxiliaryInfoOffsetBox Size="0" Type="saio" Version="1" Flags="0" Specification="p12" Container="stbl traf" entry_count="0">
+<SAIChunkOffset offset=""/>
+</SampleAuxiliaryInfoOffsetBox>
+<SampleAuxiliaryInfoOffsetBox Size="0" Type="saio" Version="1" Flags="1" Specification="p12" Container="stbl traf" entry_count="0" aux_info_type="0" aux_info_type_parameter="0">
+<SAIChunkOffset offset=""/>
+</SampleAuxiliaryInfoOffsetBox>
+<SubSampleInformationBox Size="0" Type="subs" Version="0" Flags="0" Specification="p12" Container="stbl traf" EntryCount="0">
 <SampleEntry SampleDelta="" SubSampleCount="">
 <SubSample Size="" Priority="" Discardable="" Reserved=""/>
 </SampleEntry>
 </SubSampleInformationBox>
-<SubSampleInformationBox Size="0" Type="subs" Specification="p12" Container="stbl traf" EntryCount="0">
+<SubSampleInformationBox Size="0" Type="subs" Version="0" Flags="1" Specification="p12" Container="stbl traf" EntryCount="0">
+<SampleEntry SampleDelta="" SubSampleCount="">
+<SubSample Size="" Priority="" Discardable="" Reserved=""/>
+</SampleEntry>
+</SubSampleInformationBox>
+<SubSampleInformationBox Size="0" Type="subs" Version="0" Flags="2" Specification="p12" Container="stbl traf" EntryCount="0">
+<SampleEntry SampleDelta="" SubSampleCount="">
+<SubSample Size="" Priority="" Discardable="" Reserved=""/>
+</SampleEntry>
+</SubSampleInformationBox>
+<SubSampleInformationBox Size="0" Type="subs" Version="0" Flags="4" Specification="p12" Container="stbl traf" EntryCount="0">
 <SampleEntry SampleDelta="" SubSampleCount="">
 <SubSample Size="" Priority="" Discardable="" Reserved=""/>
 </SampleEntry>
 </SubSampleInformationBox>
 <TrackGroupBox Size="0" Type="trgr" Specification="p12" Container="trak" >
 </TrackGroupBox>
-<FileTypeBox Size="0" Type="ftyp" Specification="p12" Container="file" MajorBrand="...." MinorVersion="0">
+<FileTypeBox Size="0" Type="ftyp" Specification="p12" Container="file" MajorBrand="" MinorVersion="0">
 </FileTypeBox>
 <PaddingBitsBox Size="0" Type="padb" Specification="p12" Container="stbl" EntryCount="0">
 <PaddingBitsEntry PaddingBits=""/>
@@ -408,58 +453,60 @@
 </PixelAspectRatioBox>
 <CleanAppertureBox Size="0" Type="clap" Specification="p12" Container="video_sample_entry ipco" cleanApertureWidthN="0" cleanApertureWidthD="0" cleanApertureHeightN="0" cleanApertureHeightD="0" horizOffN="0" horizOffD="0" vertOffN="0" vertOffD="0">
 </CleanAppertureBox>
-<MetaBox Size="0" Type="meta" Specification="p12" Container="file moov trak moof traf udta" Version="0" Flags="0x0" >
+<MetaBox Size="0" Type="meta" Version="0" Flags="0" Specification="p12" Container="file moov trak moof traf udta" >
 </MetaBox>
-<XMLBox Size="0" Type="xml " Specification="p12" Container="meta" Version="0" Flags="0x0" >
+<XMLBox Size="0" Type="xml " Version="0" Flags="0" Specification="p12" Container="meta" >
 <![CDATA[
 ]]>
 </XMLBox>
-<BinaryXMLBox Size="0" Type="bxml" Specification="p12" Container="meta" Version="0" Flags="0x0" binarySize="0">
+<BinaryXMLBox Size="0" Type="bxml" Version="0" Flags="0" Specification="p12" Container="meta" binarySize="0">
 </BinaryXMLBox>
-<ItemLocationBox Size="0" Type="iloc" Specification="p12" Container="meta" Version="0" Flags="0x0" offset_size="0" length_size="0" base_offset_size="0" index_size="0">
+<ItemLocationBox Size="0" Type="iloc" Version="0" Flags="0" Specification="p12" Container="meta" offset_size="0" length_size="0" base_offset_size="0" index_size="0">
 <ItemLocationEntry item_ID="" data_reference_index="" base_offset="" construction_method="">
 <ItemExtentEntry extent_offset="" extent_length="" extent_index="" />
 </ItemLocationEntry>
 </ItemLocationBox>
-<ItemLocationBox Size="0" Type="iloc" Specification="p12" Container="meta" Version="1" Flags="0x0" offset_size="0" length_size="0" base_offset_size="0" index_size="0">
+<ItemLocationBox Size="0" Type="iloc" Version="1" Flags="0" Specification="p12" Container="meta" offset_size="0" length_size="0" base_offset_size="0" index_size="0">
 <ItemLocationEntry item_ID="" data_reference_index="" base_offset="" construction_method="">
 <ItemExtentEntry extent_offset="" extent_length="" extent_index="" />
 </ItemLocationEntry>
 </ItemLocationBox>
-<ItemLocationBox Size="0" Type="iloc" Specification="p12" Container="meta" Version="2" Flags="0x0" offset_size="0" length_size="0" base_offset_size="0" index_size="0">
+<ItemLocationBox Size="0" Type="iloc" Version="2" Flags="0" Specification="p12" Container="meta" offset_size="0" length_size="0" base_offset_size="0" index_size="0">
 <ItemLocationEntry item_ID="" data_reference_index="" base_offset="" construction_method="">
 <ItemExtentEntry extent_offset="" extent_length="" extent_index="" />
 </ItemLocationEntry>
 </ItemLocationBox>
-<PrimaryItemBox Size="0" Type="pitm" Specification="p12" Container="meta" Version="0" Flags="0x0" item_ID="0">
+<PrimaryItemBox Size="0" Type="pitm" Version="0" Flags="0" Specification="p12" Container="meta" item_ID="0">
 </PrimaryItemBox>
-<PrimaryItemBox Size="0" Type="pitm" Specification="p12" Container="meta" Version="1" Flags="0x0" item_ID="0">
+<PrimaryItemBox Size="0" Type="pitm" Version="1" Flags="0" Specification="p12" Container="meta" item_ID="0">
 </PrimaryItemBox>
-<ItemProtectionBox Size="0" Type="ipro" Specification="p12" Container="meta" Version="0" Flags="0x0" >
+<ItemProtectionBox Size="0" Type="ipro" Version="0" Flags="0" Specification="p12" Container="meta" >
 </ItemProtectionBox>
-<ItemInfoEntryBox Size="0" Type="infe" Specification="p12" Container="iinf" Version="0" Flags="0x0" item_ID="0" item_protection_index="0" item_name="(null)" content_type="(null)" content_encoding="(null)" item_type="....">
+<ItemInfoEntryBox Size="0" Type="infe" Version="0" Flags="0" Specification="p12" Container="iinf" item_ID="0" item_protection_index="0" item_name="(null)" content_type="(null)" content_encoding="(null)" item_type="">
 </ItemInfoEntryBox>
-<ItemInfoEntryBox Size="0" Type="infe" Specification="p12" Container="iinf" Version="1" Flags="0x0" item_ID="0" item_protection_index="0" item_name="(null)" content_type="(null)" content_encoding="(null)" item_type="....">
+<ItemInfoEntryBox Size="0" Type="infe" Version="1" Flags="0" Specification="p12" Container="iinf" item_ID="0" item_protection_index="0" item_name="(null)" content_type="(null)" content_encoding="(null)" item_type="">
 </ItemInfoEntryBox>
-<ItemInfoEntryBox Size="0" Type="infe" Specification="p12" Container="iinf" Version="2" Flags="0x0" item_ID="0" item_protection_index="0" item_name="(null)" content_type="(null)" content_encoding="(null)" item_type="....">
+<ItemInfoEntryBox Size="0" Type="infe" Version="2" Flags="0" Specification="p12" Container="iinf" item_ID="0" item_protection_index="0" item_name="(null)" content_type="(null)" content_encoding="(null)" item_type="">
 </ItemInfoEntryBox>
-<ItemInfoEntryBox Size="0" Type="infe" Specification="p12" Container="iinf" Version="3" Flags="0x0" item_ID="0" item_protection_index="0" item_name="(null)" content_type="(null)" content_encoding="(null)" item_type="....">
+<ItemInfoEntryBox Size="0" Type="infe" Version="3" Flags="0" Specification="p12" Container="iinf" item_ID="0" item_protection_index="0" item_name="(null)" content_type="(null)" content_encoding="(null)" item_type="">
 </ItemInfoEntryBox>
-<ItemInfoBox Size="0" Type="iinf" Specification="p12" Container="meta" Version="0" Flags="0x0" >
+<ItemInfoBox Size="0" Type="iinf" Version="0" Flags="0" Specification="p12" Container="meta" >
 </ItemInfoBox>
-<ItemInfoBox Size="0" Type="iinf" Specification="p12" Container="meta" Version="1" Flags="0x0" >
+<ItemInfoBox Size="0" Type="iinf" Version="1" Flags="0" Specification="p12" Container="meta" >
 </ItemInfoBox>
-<ItemReferenceBox Size="0" Type="iref" Specification="p12" Container="meta" Version="0" Flags="0x0" >
+<ItemReferenceBox Size="0" Type="iref" Version="0" Flags="0" Specification="p12" Container="meta" >
 </ItemReferenceBox>
-<ItemReferenceBox Size="0" Type="iref" Specification="p12" Container="meta" Version="1" Flags="0x0" >
+<ItemReferenceBox Size="0" Type="iref" Version="1" Flags="0" Specification="p12" Container="meta" >
 </ItemReferenceBox>
 <ProtectionSchemeInfoBox Size="0" Type="sinf" Specification="p12" Container="ipro sample_entry" >
 </ProtectionSchemeInfoBox>
 <ProtectionSchemeInfoBox Size="0" Type="rinf" Specification="p12" Container="sample_entry" >
 </ProtectionSchemeInfoBox>
-<OriginalFormatBox Size="0" Type="frma" Specification="p12" Container="sinf rinf" data_format="....">
+<OriginalFormatBox Size="0" Type="frma" Specification="p12" Container="sinf rinf" data_format="">
 </OriginalFormatBox>
-<SchemeTypeBox Size="0" Type="schm" Specification="p12" Container="sinf rinf" Version="0" Flags="0x1" scheme_type="...." scheme_version="0" >
+<SchemeTypeBox Size="0" Type="schm" Version="0" Flags="0" Specification="p12" Container="sinf rinf" scheme_type="" scheme_version="0" >
+</SchemeTypeBox>
+<SchemeTypeBox Size="0" Type="schm" Version="0" Flags="1" Specification="p12" Container="sinf rinf" scheme_type="" scheme_version="0" >
 </SchemeTypeBox>
 <SchemeInformationBox Size="0" Type="schi" Specification="p12" Container="sinf rinf" >
 </SchemeInformationBox>
@@ -469,53 +516,59 @@
 </MPEGVisualSampleDescriptionBox>
 <MPEGVisualSampleDescriptionBox Size="0" Type="resv" Specification="p12" Container="stsd"  DataReferenceIndex="0" Width="0" Height="0" XDPI="4718592" YDPI="4718592" BitDepth="24">
 </MPEGVisualSampleDescriptionBox>
-<MPEGSystemsSampleDescriptionBox Size="0" Type="encs" Specification="p12" Container="stsd" DataReferenceIndex="0">
-</MPEGSystemsSampleDescriptionBox>
-<TrackSelectionBox Size="0" Type="tsel" Specification="p12" Container="udta" Version="0" Flags="0x0" switchGroup="0" >
+<TrackSelectionBox Size="0" Type="tsel" Version="0" Flags="0" Specification="p12" Container="udta" switchGroup="0" >
 <TrackSelectionCriteria value=""/>
 </TrackSelectionBox>
 <SubTrackBox Size="0" Type="strk" Specification="p12" Container="udta" >
 </SubTrackBox>
-<SubTrackInformationBox Size="0" Type="stri" Specification="p12" Container="strk" Version="0" Flags="0x0" switch_group="0" alternate_group="0" sub_track_id="0">
+<SubTrackInformationBox Size="0" Type="stri" Version="0" Flags="0" Specification="p12" Container="strk" switch_group="0" alternate_group="0" sub_track_id="0">
 <SubTrackInformationAttribute value=""/>
 </SubTrackInformationBox>
 <SubTrackDefinitionBox Size="0" Type="strd" Specification="p12" Container="strk" >
 </SubTrackDefinitionBox>
-<SubTrackSampleGroupBox Size="0" Type="stsg" Specification="p12" Container="strd" Version="0" Flags="0x0" grouping_type="....">
+<SubTrackSampleGroupBox Size="0" Type="stsg" Version="0" Flags="0" Specification="p12" Container="strd" >
 <SubTrackSampleGroupBoxEntry group_description_index=""/>
 </SubTrackSampleGroupBox>
+<MPEGSystemsSampleDescriptionBox Size="0" Type="encs" Specification="p12" Container="stsd" DataReferenceIndex="0">
+</MPEGSystemsSampleDescriptionBox>
+<MPEGSystemsSampleDescriptionBox Size="0" Type="enct" Specification="p12" Container="stsd" DataReferenceIndex="0">
+</MPEGSystemsSampleDescriptionBox>
+<MPEGSystemsSampleDescriptionBox Size="0" Type="encm" Specification="p12" Container="stsd" DataReferenceIndex="0">
+</MPEGSystemsSampleDescriptionBox>
+<MPEGSystemsSampleDescriptionBox Size="0" Type="encf" Specification="p12" Container="stsd" DataReferenceIndex="0">
+</MPEGSystemsSampleDescriptionBox>
 <XMLMetaDataSampleEntryBox Size="0" Type="metx" Specification="p12" Container="stsd" namespace="(null)" >
 </XMLMetaDataSampleEntryBox>
 <TextMetaDataSampleEntryBox Size="0" Type="mett" Specification="p12" Container="stsd" mime_type="(null)" >
 </TextMetaDataSampleEntryBox>
-<StereoVideoBox Size="0" Type="stvi" Specification="p12" Container="schi" Version="0" Flags="0x0" single_view_allowed="0" stereo_scheme="0" stereo_indication_type="">
+<StereoVideoBox Size="0" Type="stvi" Version="0" Flags="0" Specification="p12" Container="schi" single_view_allowed="0" stereo_scheme="0" stereo_indication_type="">
 </StereoVideoBox>
-<FDItemInformationBox Size="0" Type="fiin" Specification="p12" Container="meta" Version="0" Flags="0x0" >
+<FDItemInformationBox Size="0" Type="fiin" Version="0" Flags="0" Specification="p12" Container="meta" >
 </FDItemInformationBox>
-<FDPartitionEntryBox Size="0" Type="paen" Specification="p12" Container="fiin" Version="0" Flags="0x0" >
+<FDPartitionEntryBox Size="0" Type="paen" Specification="p12" Container="fiin" >
 </FDPartitionEntryBox>
-<FilePartitionBox Size="0" Type="fpar" Specification="p12" Container="paen" Version="0" Flags="0x0" itemID="0" FEC_encoding_ID="0" FEC_instance_ID="0" max_source_block_length="0" encoding_symbol_length="0" max_number_of_encoding_symbols="0" >
+<FilePartitionBox Size="0" Type="fpar" Version="0" Flags="0" Specification="p12" Container="paen" itemID="0" FEC_encoding_ID="0" FEC_instance_ID="0" max_source_block_length="0" encoding_symbol_length="0" max_number_of_encoding_symbols="0" >
 <FilePartitionBoxEntry block_count="" block_size=""/>
 </FilePartitionBox>
-<FilePartitionBox Size="0" Type="fpar" Specification="p12" Container="paen" Version="1" Flags="0x0" itemID="0" FEC_encoding_ID="0" FEC_instance_ID="0" max_source_block_length="0" encoding_symbol_length="0" max_number_of_encoding_symbols="0" >
+<FilePartitionBox Size="0" Type="fpar" Version="1" Flags="0" Specification="p12" Container="paen" itemID="0" FEC_encoding_ID="0" FEC_instance_ID="0" max_source_block_length="0" encoding_symbol_length="0" max_number_of_encoding_symbols="0" >
 <FilePartitionBoxEntry block_count="" block_size=""/>
 </FilePartitionBox>
-<FECReservoirBox Size="0" Type="fecr" Specification="p12" Container="paen" Version="0" Flags="0x0" >
+<FECReservoirBox Size="0" Type="fecr" Version="0" Flags="0" Specification="p12" Container="paen" >
 <FECReservoirBoxEntry itemID="" symbol_count=""/>
 </FECReservoirBox>
-<FECReservoirBox Size="0" Type="fecr" Specification="p12" Container="paen" Version="1" Flags="0x0" >
+<FECReservoirBox Size="0" Type="fecr" Version="1" Flags="0" Specification="p12" Container="paen" >
 <FECReservoirBoxEntry itemID="" symbol_count=""/>
 </FECReservoirBox>
-<FILEReservoirBox Size="0" Type="fire" Specification="p12" Container="paen" Version="0" Flags="0x0" >
+<FILEReservoirBox Size="0" Type="fire" Version="0" Flags="0" Specification="p12" Container="paen" >
 <FILEReservoirBoxEntry itemID="" symbol_count=""/>
 </FILEReservoirBox>
-<FILEReservoirBox Size="0" Type="fire" Specification="p12" Container="paen" Version="1" Flags="0x0" >
+<FILEReservoirBox Size="0" Type="fire" Version="1" Flags="0" Specification="p12" Container="paen" >
 <FILEReservoirBoxEntry itemID="" symbol_count=""/>
 </FILEReservoirBox>
 <FDSessionGroupBox Size="0" Type="segr" Specification="p12" Container="fiin" >
 <FDSessionGroupBoxEntry groupIDs="" channels=""/>
 </FDSessionGroupBox>
-<GroupIdToNameBox Size="0" Type="gitn" Specification="p12" Container="fiin" Version="0" Flags="0x0" >
+<GroupIdToNameBox Size="0" Type="gitn" Version="0" Flags="0" Specification="p12" Container="fiin" >
 <GroupIdToNameBoxEntryEntry groupID="" name=""/>
 </GroupIdToNameBox>
 <FDSampleBox Size="0" Type="fdsa" Specification="p12" Container="fdp_sample" >
@@ -571,7 +624,7 @@
 </MaxPacketDurationBox>
 <PayloadTypeBox Size="0" Type="payt" Specification="p12" Container="hinf" PayloadID="0" PayloadString="(null)">
 </PayloadTypeBox>
-<RTPMovieHintInformationBox Size="0" Type="rtp " Specification="p12" Container="hnti" descriptionformat="....">
+<RTPMovieHintInformationBox Size="0" Type="rtp " Specification="p12" Container="hnti" descriptionformat="">
 </RTPMovieHintInformationBox>
 <RTPTimeOffsetBox Size="0" Type="rtpo" Specification="p12" Container="rtp_packet" PacketTimeOffset="0">
 </RTPTimeOffsetBox>
@@ -589,50 +642,79 @@
 </TimeStampSynchronyBox>
 <ReceivedSsrcBox Size="0" Type="rssr" Specification="p12" Container="rrtp" SSRC="0">
 </ReceivedSsrcBox>
-<SRTPProcessBox Size="0" Type="srpp" Specification="p12" Container="srtp" Version="0" Flags="0x0" encryption_algorithm_rtp="0" encryption_algorithm_rtcp="0" integrity_algorithm_rtp="0" integrity_algorithm_rtcp="0">
+<SRTPProcessBox Size="0" Type="srpp" Version="0" Flags="0" Specification="p12" Container="srtp" encryption_algorithm_rtp="0" encryption_algorithm_rtcp="0" integrity_algorithm_rtp="0" integrity_algorithm_rtcp="0">
 </SRTPProcessBox>
 <MovieExtendsBox Size="0" Type="mvex" Specification="p12" Container="moov" >
 </MovieExtendsBox>
-<MovieExtendsHeaderBox Size="0" Type="mehd" Specification="p12" Container="mvex" Version="0" Flags="0x0" fragmentDuration="0" >
+<MovieExtendsHeaderBox Size="0" Type="mehd" Version="0" Flags="0" Specification="p12" Container="mvex" fragmentDuration="0" >
 </MovieExtendsHeaderBox>
-<MovieExtendsHeaderBox Size="0" Type="mehd" Specification="p12" Container="mvex" Version="1" Flags="0x0" fragmentDuration="0" >
+<MovieExtendsHeaderBox Size="0" Type="mehd" Version="1" Flags="0" Specification="p12" Container="mvex" fragmentDuration="0" >
 </MovieExtendsHeaderBox>
-<TrackExtendsBox Size="0" Type="trex" Specification="p12" Container="mvex" Version="0" Flags="0x0" TrackID="0" SampleDescriptionIndex="0" SampleDuration="0" SampleSize="0">
+<TrackExtendsBox Size="0" Type="trex" Version="0" Flags="0" Specification="p12" Container="mvex" TrackID="0" SampleDescriptionIndex="0" SampleDuration="0" SampleSize="0">
 <DefaultSampleFlags IsLeading="0" SampleDependsOn="0" SampleIsDependedOn="0" SampleHasRedundancy="0" SamplePadding="0" SampleSync="1" SampleDegradationPriority="0"/>
 </TrackExtendsBox>
-<LevelAssignmentBox Size="0" Type="leva" Specification="p12" Container="mvex" Version="0" Flags="0x0" level_count="0" >
+<LevelAssignmentBox Size="0" Type="leva" Version="0" Flags="0" Specification="p12" Container="mvex" level_count="0" >
 <Assignement track_id="" padding_flag="" assignement_type="" grouping_type="" grouping_type_parameter="" sub_track_id="" />
 </LevelAssignmentBox>
-<TrackExtensionPropertiesBox Size="0" Type="trep" Specification="p12" Container="mvex" Version="0" Flags="0x0" TrackID="0">
+<TrackExtensionPropertiesBox Size="0" Type="trep" Version="0" Flags="0" Specification="p12" Container="mvex" TrackID="0">
 </TrackExtensionPropertiesBox>
 <MovieFragmentBox Size="0" Type="moof" Specification="p12" Container="file" TrackFragments="0">
 </MovieFragmentBox>
-<MovieFragmentHeaderBox Size="0" Type="mfhd" Specification="p12" Container="moof" Version="0" Flags="0x0" FragmentSequenceNumber="0">
+<MovieFragmentHeaderBox Size="0" Type="mfhd" Version="0" Flags="0" Specification="p12" Container="moof" FragmentSequenceNumber="0">
 </MovieFragmentHeaderBox>
 <TrackFragmentBox Size="0" Type="traf" Specification="p12" Container="moof" >
 </TrackFragmentBox>
-<TrackFragmentHeaderBox Size="0" Type="tfhd" Specification="p12" Container="traf" Version="0" Flags="0x3003B" TrackID="0" BaseDataOffset="0" SampleDescriptionIndex="0" SampleDuration="0" SampleSize="0" SamplePadding="0" Sync="1" DegradationPriority="0" IsLeading="0" DependsOn="0" IsDependedOn="0" HasRedundancy="0">
+<TrackFragmentHeaderBox Size="0" Type="tfhd" Version="0" Flags="0" Specification="p12" Container="traf" TrackID="0" BaseDataOffset="moof-or-previous-traf">
 </TrackFragmentHeaderBox>
-<TrackRunBox Size="0" Type="trun" Specification="p12" Container="traf" Version="0" Flags="0xF05" SampleCount="0" DataOffset="0">
-<FirstSampleFlags IsLeading="0" SampleDependsOn="0" SampleIsDependedOn="0" SampleHasRedundancy="0" SamplePadding="0" SampleSync="1" SampleDegradationPriority="0"/>
+<TrackFragmentHeaderBox Size="0" Type="tfhd" Version="0" Flags="1" Specification="p12" Container="traf" TrackID="0" BaseDataOffset="0">
+</TrackFragmentHeaderBox>
+<TrackFragmentHeaderBox Size="0" Type="tfhd" Version="0" Flags="2" Specification="p12" Container="traf" TrackID="0" BaseDataOffset="moof-or-previous-traf" SampleDescriptionIndex="0">
+</TrackFragmentHeaderBox>
+<TrackFragmentHeaderBox Size="0" Type="tfhd" Version="0" Flags="8" Specification="p12" Container="traf" TrackID="0" BaseDataOffset="moof-or-previous-traf" SampleDuration="0">
+</TrackFragmentHeaderBox>
+<TrackFragmentHeaderBox Size="0" Type="tfhd" Version="0" Flags="16" Specification="p12" Container="traf" TrackID="0" BaseDataOffset="moof-or-previous-traf" SampleSize="0">
+</TrackFragmentHeaderBox>
+<TrackFragmentHeaderBox Size="0" Type="tfhd" Version="0" Flags="32" Specification="p12" Container="traf" TrackID="0" BaseDataOffset="moof-or-previous-traf" SamplePadding="0" Sync="1" DegradationPriority="0" IsLeading="0" DependsOn="0" IsDependedOn="0" HasRedundancy="0">
+</TrackFragmentHeaderBox>
+<TrackFragmentHeaderBox Size="0" Type="tfhd" Version="0" Flags="65536" Specification="p12" Container="traf" TrackID="0" BaseDataOffset="moof-or-previous-traf">
+</TrackFragmentHeaderBox>
+<TrackFragmentHeaderBox Size="0" Type="tfhd" Version="0" Flags="131072" Specification="p12" Container="traf" TrackID="0" BaseDataOffset="moof">
+</TrackFragmentHeaderBox>
+<TrackRunBox Size="0" Type="trun" Version="0" Flags="0" Specification="p12" Container="traf" SampleCount="0">
+<TrackRunEntry Duration="" Size="" CTSOffset="" SamplePadding="0" Sync="1" DegradationPriority="0" IsLeading="0" DependsOn="0" IsDependedOn="0" HasRedundancy="0"/>
 </TrackRunBox>
-<TrackFragmentBaseMediaDecodeTimeBox Size="0" Type="tfdt" Specification="p12" Container="traf" Version="0" Flags="0x0" baseMediaDecodeTime="0">
+<TrackRunBox Size="0" Type="trun" Version="0" Flags="1" Specification="p12" Container="traf" SampleCount="0" DataOffset="0">
+<TrackRunEntry Duration="" Size="" CTSOffset="" SamplePadding="0" Sync="1" DegradationPriority="0" IsLeading="0" DependsOn="0" IsDependedOn="0" HasRedundancy="0"/>
+</TrackRunBox>
+<TrackRunBox Size="0" Type="trun" Version="0" Flags="4" Specification="p12" Container="traf" SampleCount="0">
+<FirstSampleFlags IsLeading="0" SampleDependsOn="0" SampleIsDependedOn="0" SampleHasRedundancy="0" SamplePadding="0" SampleSync="1" SampleDegradationPriority="0"/>
+<TrackRunEntry Duration="" Size="" CTSOffset="" SamplePadding="0" Sync="1" DegradationPriority="0" IsLeading="0" DependsOn="0" IsDependedOn="0" HasRedundancy="0"/>
+</TrackRunBox>
+<TrackRunBox Size="0" Type="trun" Version="0" Flags="256" Specification="p12" Container="traf" SampleCount="0">
+</TrackRunBox>
+<TrackRunBox Size="0" Type="trun" Version="0" Flags="512" Specification="p12" Container="traf" SampleCount="0">
+</TrackRunBox>
+<TrackRunBox Size="0" Type="trun" Version="0" Flags="1024" Specification="p12" Container="traf" SampleCount="0">
+</TrackRunBox>
+<TrackRunBox Size="0" Type="trun" Version="0" Flags="2048" Specification="p12" Container="traf" SampleCount="0">
+</TrackRunBox>
+<TrackFragmentBaseMediaDecodeTimeBox Size="0" Type="tfdt" Version="0" Flags="0" Specification="p12" Container="traf" baseMediaDecodeTime="0">
 </TrackFragmentBaseMediaDecodeTimeBox>
-<TrackFragmentBaseMediaDecodeTimeBox Size="0" Type="tfdt" Specification="p12" Container="traf" Version="1" Flags="0x0" baseMediaDecodeTime="0">
+<TrackFragmentBaseMediaDecodeTimeBox Size="0" Type="tfdt" Version="1" Flags="0" Specification="p12" Container="traf" baseMediaDecodeTime="0">
 </TrackFragmentBaseMediaDecodeTimeBox>
-<SegmentTypeBox Size="0" Type="styp" Specification="p12" Container="file" MajorBrand="...." MinorVersion="0">
+<SegmentTypeBox Size="0" Type="styp" Specification="p12" Container="file" MajorBrand="" MinorVersion="0">
 </SegmentTypeBox>
-<ProducerReferenceTimeBox Size="0" Type="prft" Specification="p12" Container="file" Version="0" Flags="0x0" referenceTrackID="0" timestamp="0" NTP="0" UTC="1970-01-01T00:00:00.000Z">
+<ProducerReferenceTimeBox Size="0" Type="prft" Version="0" Flags="0" Specification="p12" Container="file" referenceTrackID="0" timestamp="0" NTP="0" UTC="1970-01-01T00:00:00.000Z">
 </ProducerReferenceTimeBox>
-<ProducerReferenceTimeBox Size="0" Type="prft" Specification="p12" Container="file" Version="1" Flags="0x0" referenceTrackID="0" timestamp="0" NTP="0" UTC="1970-01-01T00:00:00.000Z">
+<ProducerReferenceTimeBox Size="0" Type="prft" Version="1" Flags="0" Specification="p12" Container="file" referenceTrackID="0" timestamp="0" NTP="0" UTC="1970-01-01T00:00:00.000Z">
 </ProducerReferenceTimeBox>
-<SegmentIndexBox Size="0" Type="sidx" Specification="p12" Container="file" reference_ID="0" timescale="0" earliest_presentation_time="0" first_offset="0" Version="0" Flags="0x0" >
+<SegmentIndexBox Size="0" Type="sidx" Version="0" Flags="0" Specification="p12" Container="file" reference_ID="0" timescale="0" earliest_presentation_time="0" first_offset="0" >
 <Reference type="" size="" duration="" startsWithSAP="" SAP_type="" SAPDeltaTime=""/>
 </SegmentIndexBox>
-<SegmentIndexBox Size="0" Type="sidx" Specification="p12" Container="file" reference_ID="0" timescale="0" earliest_presentation_time="0" first_offset="0" Version="1" Flags="0x0" >
+<SegmentIndexBox Size="0" Type="sidx" Version="1" Flags="0" Specification="p12" Container="file" reference_ID="0" timescale="0" earliest_presentation_time="0" first_offset="0" >
 <Reference type="" size="" duration="" startsWithSAP="" SAP_type="" SAPDeltaTime=""/>
 </SegmentIndexBox>
-<SubsegmentIndexBox Size="0" Type="ssix" Specification="p12" Container="file" Version="0" Flags="0x0" subsegment_count="0" >
+<SubsegmentIndexBox Size="0" Type="ssix" Version="0" Flags="0" Specification="p12" Container="file" subsegment_count="0" >
 <Subsegment range_count="">
 <Range level="" range_size=""/>
 </Subsegment>
@@ -640,7 +722,7 @@
 <MPEG2TSPCRInfoBox Size="0" Type="pcrb" Specification="p12" Container="file" subsegment_count="0">
 <PCRInfo PCR="" />
 </MPEG2TSPCRInfoBox>
-<ObjectDescriptorBox Size="0" Type="iods" Specification="p14" Container="moov" Version="0" Flags="0x0" >
+<ObjectDescriptorBox Size="0" Type="iods" Version="0" Flags="0" Specification="p14" Container="moov" >
 </ObjectDescriptorBox>
 <MPEGSystemsSampleDescriptionBox Size="0" Type="mp4s" Specification="p14" Container="stsd" DataReferenceIndex="0">
 </MPEGSystemsSampleDescriptionBox>
@@ -650,7 +732,7 @@
 </MPEGAudioSampleDescriptionBox>
 <MPEG4ExtensionDescriptorsBox Size="0" Type="m4ds" Specification="p14" Container="stsd" >
 </MPEG4ExtensionDescriptorsBox>
-<MPEG4ESDescriptorBox Size="0" Type="esds" Specification="p14" Container="mp4a mp4s mp4v encv enca encs resv" Version="0" Flags="0x0" >
+<MPEG4ESDescriptorBox Size="0" Type="esds" Version="0" Flags="0" Specification="p14" Container="mp4a mp4s mp4v encv enca encs resv" >
 </MPEG4ESDescriptorBox>
 <AVCConfigurationBox Size="0" Type="avcC" Specification="p15" Container="avc1 avc2 avc3 avc4 encv resv ipco" >
 <AVCDecoderConfigurationRecord configurationVersion="" AVCProfileIndication="" profile_compatibility="" AVCLevelIndication="" nal_unit_size="" complete_representation="" chroma_format="" luma_bit_depth="" chroma_bit_depth="">
@@ -666,6 +748,13 @@
 <SequenceParameterSetExtensions size="" content=""/>
 </SVCDecoderConfigurationRecord>
 </SVCConfigurationBox>
+<MVCConfigurationBox Size="0" Type="mvcC" Specification="p15" Container="avc1 avc2 avc3 avc4 mvc1 mvc2 encv resv" >
+<MVCDecoderConfigurationRecord configurationVersion="" AVCProfileIndication="" profile_compatibility="" AVCLevelIndication="" nal_unit_size="" complete_representation="" chroma_format="" luma_bit_depth="" chroma_bit_depth="">
+<SequenceParameterSet size="" content=""/>
+<PictureParameterSet size="" content=""/>
+<SequenceParameterSetExtensions size="" content=""/>
+</MVCDecoderConfigurationRecord>
+</MVCConfigurationBox>
 <HEVCConfigurationBox Size="0" Type="hvcC" Specification="p15" Container="hvc1 hev1 hvc2 hev2 encv resv ipco" >
 <HEVCDecoderConfigurationRecord nal_unit_size="" configurationVersion="" profile_space="" tier_flag="" profile_idc="" general_profile_compatibility_flags="" progressive_source_flag="" interlaced_source_flag="" non_packed_constraint_flag="" frame_only_constraint_flag="" constraint_indicator_flags="" level_idc="" min_spatial_segmentation_idc="" parallelismType="" chroma_format="" luma_bit_depth="" chroma_bit_depth="" avgFrameRate="" constantFrameRate="" numTemporalLayers="" temporalIdNested="">
 <ParameterSetArray nalu_type="" complete_set="">
@@ -690,6 +779,8 @@
 </AVCSampleEntryBox>
 <SVCSampleEntryBox Size="0" Type="svc1" Specification="p15" Container="stsd"  DataReferenceIndex="0" Width="0" Height="0" XDPI="4718592" YDPI="4718592" BitDepth="24">
 </SVCSampleEntryBox>
+<MVCSampleEntryBox Size="0" Type="mvc1" Specification="p15" Container="stsd"  DataReferenceIndex="0" Width="0" Height="0" XDPI="4718592" YDPI="4718592" BitDepth="24">
+</MVCSampleEntryBox>
 <HEVCSampleEntryBox Size="0" Type="hvc1" Specification="p15" Container="stsd"  DataReferenceIndex="0" Width="0" Height="0" XDPI="4718592" YDPI="4718592" BitDepth="24">
 </HEVCSampleEntryBox>
 <HEVCSampleEntryBox Size="0" Type="hev1" Specification="p15" Container="stsd"  DataReferenceIndex="0" Width="0" Height="0" XDPI="4718592" YDPI="4718592" BitDepth="24">
@@ -709,7 +800,7 @@
 <LASeRConfigurationBox Size="0" Type="lsrC" Specification="p20" Container="lsr1" LASeRHeader=""></LASeRConfigurationBox>
 <SimpleTextSampleEntryBox Size="0" Type="stxt" Specification="p12" Container="stsd" mime_type="(null)" >
 </SimpleTextSampleEntryBox>
-<TextConfigBox Size="0" Type="txtC" Specification="p12" Container="stxt" >
+<TextConfigBox Size="0" Type="txtC" Version="0" Flags="0" Specification="p12" Container="stxt" >
 </TextConfigBox>
 <WebVTTSampleEntryBox Size="0" Type="wvtt" Specification="p30" Container="stsd" >
 </WebVTTSampleEntryBox>
@@ -743,36 +834,51 @@
 </ItemPropertiesBox>
 <ItemPropertyContainerBox Size="0" Type="ipco" Specification="iff" Container="iprp" >
 </ItemPropertyContainerBox>
-<ImageSpatialExtentsPropertyBox Size="0" Type="ispe" Specification="iff" Container="ipco" Version="0" Flags="0x0" image_width="0" image_height="0">
+<ImageSpatialExtentsPropertyBox Size="0" Type="ispe" Version="0" Flags="0" Specification="iff" Container="ipco" image_width="0" image_height="0">
 </ImageSpatialExtentsPropertyBox>
-<ColourInformationBox Size="0" Type="colr" Specification="iff" Container="ipco" colour_type="...." colour_primaries="0" transfer_characteristics="0" matrix_coefficients="0" full_range_flag="0">
+<ColourInformationBox Size="0" Type="colr" Specification="iff" Container="ipco" colour_type="" colour_primaries="0" transfer_characteristics="0" matrix_coefficients="0" full_range_flag="0">
 </ColourInformationBox>
-<PixelInformationPropertyBox Size="0" Type="pixi" Specification="iff" Container="ipco" Version="0" Flags="0x0" >
+<PixelInformationPropertyBox Size="0" Type="pixi" Version="0" Flags="0" Specification="iff" Container="ipco" >
 <BitPerChannel bits_per_channel=""/>
 </PixelInformationPropertyBox>
-<RelativeLocationPropertyBox Size="0" Type="rloc" Specification="iff" Container="ipco" Version="0" Flags="0x0" horizontal_offset="0" vertical_offset="0">
+<RelativeLocationPropertyBox Size="0" Type="rloc" Version="0" Flags="0" Specification="iff" Container="ipco" horizontal_offset="0" vertical_offset="0">
 </RelativeLocationPropertyBox>
 <ImageRotationBox Size="0" Type="irot" Specification="iff" Container="ipco" angle="0">
 </ImageRotationBox>
-<ItemPropertyAssociationBox Size="0" Type="ipma" Specification="iff" Container="iprp" Version="0" Flags="0x0" entry_count="0">
+<ItemPropertyAssociationBox Size="0" Type="ipma" Version="0" Flags="0" Specification="iff" Container="iprp" entry_count="0">
+<AssociationEntry item_ID="" association_count="">
+<Property index="" essential=""/>
+</AssociationEntry>
+</ItemPropertyAssociationBox>
+<ItemPropertyAssociationBox Size="0" Type="ipma" Version="0" Flags="1" Specification="iff" Container="iprp" entry_count="0">
+<AssociationEntry item_ID="" association_count="">
+<Property index="" essential=""/>
+</AssociationEntry>
+</ItemPropertyAssociationBox>
+<ItemPropertyAssociationBox Size="0" Type="ipma" Version="1" Flags="0" Specification="iff" Container="iprp" entry_count="0">
+<AssociationEntry item_ID="" association_count="">
+<Property index="" essential=""/>
+</AssociationEntry>
+</ItemPropertyAssociationBox>
+<ItemPropertyAssociationBox Size="0" Type="ipma" Version="1" Flags="1" Specification="iff" Container="iprp" entry_count="0">
 <AssociationEntry item_ID="" association_count="">
 <Property index="" essential=""/>
 </AssociationEntry>
 </ItemPropertyAssociationBox>
 <GroupListBox Size="0" Type="grpl" Specification="iff" Container="meta" >
 </GroupListBox>
-<CodingConstraintsBox Size="0" Type="ccst" Specification="iff" Container="sample_entry" Version="0" Flags="0x0" all_ref_pics_intra="0" intra_pred_used="0" max_ref_per_pic="0" reserved="0">
+<CodingConstraintsBox Size="0" Type="ccst" Version="0" Flags="0" Specification="iff" Container="sample_entry" all_ref_pics_intra="0" intra_pred_used="0" max_ref_per_pic="0" reserved="0">
 </CodingConstraintsBox>
-<EntityToGroupTypeBox Size="0" Type="altr" Specification="iff" Container="grpl" Version="0" Flags="0x0" group_id="0">
+<EntityToGroupTypeBox Size="0" Type="altr" Version="0" Flags="0" Specification="iff" Container="grpl" group_id="0">
 <EntityToGroupTypeBoxEntry EntityID=""/>
 </EntityToGroupTypeBox>
-<AuxiliaryTypePropertyBox Size="0" Type="auxC" Specification="iff" Container="ipco" Version="0" Flags="0x0" aux_type="(null)" aux_subtype="">
+<AuxiliaryTypePropertyBox Size="0" Type="auxC" Version="0" Flags="0" Specification="iff" Container="ipco" aux_type="(null)" aux_subtype="">
 </AuxiliaryTypePropertyBox>
-<OperatingPointsInformationPropertyBox Size="0" Type="oinf" Specification="iff" Container="ipco" Version="0" Flags="0x0" >
+<OperatingPointsInformationPropertyBox Size="0" Type="oinf" Version="0" Flags="0" Specification="iff" Container="ipco" >
 <OperatingPointsInformation scalability_mask="0 (unknown)" num_profile_tier_level="0" num_operating_points="0" dependency_layers="0">
 </OperatingPointsInformation>
 </OperatingPointsInformationPropertyBox>
-<TargetOLSPropertyBox Size="0" Type="tols" Specification="iff" Container="ipco" Version="0" Flags="0x0" target_ols_index="0">
+<TargetOLSPropertyBox Size="0" Type="tols" Version="0" Flags="0" Specification="iff" Container="ipco" target_ols_index="0">
 </TargetOLSPropertyBox>
 <RVCConfigurationBox Size="0" Type="rvcc" Specification="rvc" Container="avc1 avc2 avc3 avc4 svc1 svc2 hvc1 hev1 hvc2 hev2 lhv1 lhe1 encv resv" predefined="0" rvc_meta_idx="0">
 </RVCConfigurationBox>
@@ -831,11 +937,13 @@
 </DIMSSceneConfigBox>
 <DIMSScriptTypesBox Size="0" Type="diST" Specification="3gpp" Container="stsd" types="(null)">
 </DIMSScriptTypesBox>
-<ProtectionSystemHeaderBox Size="0" Type="pssh" Specification="cenc" Container="moov moof" Version="0" Flags="0x0" SystemID="0x00000000000000000000000000000000">
+<ProtectionSystemHeaderBox Size="0" Type="pssh" Version="0" Flags="0" Specification="cenc" Container="moov moof" SystemID="0x00000000000000000000000000000000">
  <PSSHKey KID=""/>
  <PSSHData size="" value=""/>
 </ProtectionSystemHeaderBox>
-<TrackEncryptionBox Size="0" Type="tenc" Specification="cenc" Container="schi" Version="0" Flags="0x0" isEncrypted="0" constant_IV_size="0" constant_IV="0x00000000000000000000000000000000"  KID="0x00000000000000000000000000000000">
+<TrackEncryptionBox Size="0" Type="tenc" Version="0" Flags="0" Specification="cenc" Container="schi" isEncrypted="0" constant_IV_size="0" constant_IV="0x00000000000000000000000000000000"  KID="0x00000000000000000000000000000000">
+</TrackEncryptionBox>
+<TrackEncryptionBox Size="0" Type="tenc" Version="1" Flags="0" Specification="cenc" Container="schi" isEncrypted="0" constant_IV_size="0" constant_IV="0x00000000000000000000000000000000"  KID="0x00000000000000000000000000000000" crypt_byte_block="0" skip_byte_block="0">
 </TrackEncryptionBox>
 <SampleEncryptionBox Size="0" Type="senc" Specification="cenc" Container="trak traf" sampleCount="0">
 <FullBoxInfo Version="0" Flags="0x0"/>
@@ -843,74 +951,74 @@
 <SubSampleEncryptionEntry NumClearBytes="" NumEncryptedBytes=""/>
 </SampleEncryptionEntry>
 </SampleEncryptionBox>
-<KMSBox Size="0" Type="iKMS" Specification="isma" Container="schi" Version="0" Flags="0x0" kms_URI="(null)">
+<KMSBox Size="0" Type="iKMS" Version="0" Flags="0" Specification="isma" Container="schi" kms_URI="(null)">
 </KMSBox>
-<ISMASampleFormat Size="0" Type="iSFM" Specification="isma" Container="schi" Version="0" Flags="0x0" selective_encryption="0" key_indicator_length="0" IV_length="0">
+<ISMASampleFormat Size="0" Type="iSFM" Version="0" Flags="0" Specification="isma" Container="schi" selective_encryption="0" key_indicator_length="0" IV_length="0">
 </ISMASampleFormat>
-<ISMACrypSaltBox Size="0" Type="iSLT" Specification="isma" Container="schi" Version="0" Flags="0x0" salt="0">
+<ISMACrypSaltBox Size="0" Type="iSLT" Version="0" Flags="0" Specification="isma" Container="schi" salt="0">
 </ISMACrypSaltBox>
-<OMADRMKMSBox Size="0" Type="odkm" Specification="oma" Container="schi" Version="0" Flags="0x0" >
+<OMADRMKMSBox Size="0" Type="odkm" Version="0" Flags="0" Specification="oma" Container="schi" >
 </OMADRMKMSBox>
-<OMADRMCommonHeaderBox Size="0" Type="ohdr" Specification="oma" Container="odkm" Version="0" Flags="0x0" EncryptionMethod="0" PaddingScheme="0" PlaintextLength="0" >
+<OMADRMCommonHeaderBox Size="0" Type="ohdr" Version="0" Flags="0" Specification="oma" Container="odkm" EncryptionMethod="0" PaddingScheme="0" PlaintextLength="0" >
 </OMADRMCommonHeaderBox>
-<OMADRMGroupIDBox Size="0" Type="grpi" Specification="oma" Container="ohdr" Version="0" Flags="0x0" GroupID="(null)" EncryptionMethod="0" GroupKey=" ">
+<OMADRMGroupIDBox Size="0" Type="grpi" Version="0" Flags="0" Specification="oma" Container="ohdr" GroupID="(null)" EncryptionMethod="0" GroupKey=" ">
 </OMADRMGroupIDBox>
 <OMADRMMutableInformationBox Size="0" Type="mdri" Specification="oma" Container="file" >
 </OMADRMMutableInformationBox>
-<OMADRMTransactionTrackingBox Size="0" Type="odtt" Specification="oma" Container="mdri" Version="0" Flags="0x0" TransactionID="data:application/octet-string,00000000000000000000000000000000">
+<OMADRMTransactionTrackingBox Size="0" Type="odtt" Version="0" Flags="0" Specification="oma" Container="mdri" TransactionID="data:application/octet-string,00000000000000000000000000000000">
 </OMADRMTransactionTrackingBox>
-<OMADRMRightsObjectBox Size="0" Type="odrb" Specification="oma" Container="mdri" Version="0" Flags="0x0" OMARightsObject="data:application/octet-string,">
+<OMADRMRightsObjectBox Size="0" Type="odrb" Version="0" Flags="0" Specification="oma" Container="mdri" OMARightsObject="data:application/octet-string,">
 </OMADRMRightsObjectBox>
-<OMADRMAUFormatBox Size="0" Type="odaf" Specification="oma" Container="schi" Version="0" Flags="0x0" selective_encryption="0" key_indicator_length="0" IV_length="0">
+<OMADRMAUFormatBox Size="0" Type="odaf" Version="0" Flags="0" Specification="oma" Container="schi" selective_encryption="0" key_indicator_length="0" IV_length="0">
 </OMADRMAUFormatBox>
-<ChapterListBox Size="0" Type="chpl" Specification="apple" Container="udta" Version="1" Flags="0x0" >
+<ChapterListBox Size="0" Type="chpl" Version="0" Flags="0" Specification="apple" Container="udta" >
 <Chapter name="" startTime=""/>
 </ChapterListBox>
 <VoidBox Size="0" Type="VOID" Specification="apple" Container="" >
 </VoidBox>
 <ItemListBox Size="0" Type="ilst" Specification="apple" Container="meta" >
 </ItemListBox>
-<data Size="0" Type="data" Specification="apple" Container="ilst" Version="0" Flags="0x0" >
+<data Size="0" Type="data" Version="0" Flags="0" Specification="apple" Container="ilst" >
 </data>
-<NameBox Size="0" Type=".nam" Specification="apple" Container="ilst data" Version="0" Flags="0x0" >
+<NameBox Size="0" Type=".nam" Specification="apple" Container="ilst data" >
 </NameBox>
-<CommentBox Size="0" Type=".cmt" Specification="apple" Container="ilst data" Version="0" Flags="0x0" >
+<CommentBox Size="0" Type=".cmt" Specification="apple" Container="ilst data" >
 </CommentBox>
-<CreatedBox Size="0" Type=".day" Specification="apple" Container="ilst data" Version="0" Flags="0x0" >
+<CreatedBox Size="0" Type=".day" Specification="apple" Container="ilst data" >
 </CreatedBox>
-<ArtistBox Size="0" Type=".ART" Specification="apple" Container="ilst data" Version="0" Flags="0x0" >
+<ArtistBox Size="0" Type=".ART" Specification="apple" Container="ilst data" >
 </ArtistBox>
-<TrackBox Size="0" Type=".trk" Specification="apple" Container="ilst data" Version="0" Flags="0x0" >
+<TrackBox Size="0" Type=".trk" Specification="apple" Container="ilst data" >
 </TrackBox>
-<AlbumBox Size="0" Type=".alb" Specification="apple" Container="ilst data" Version="0" Flags="0x0" >
+<AlbumBox Size="0" Type=".alb" Specification="apple" Container="ilst data" >
 </AlbumBox>
-<CompositorBox Size="0" Type=".com" Specification="apple" Container="ilst data" Version="0" Flags="0x0" >
+<CompositorBox Size="0" Type=".com" Specification="apple" Container="ilst data" >
 </CompositorBox>
-<WriterBox Size="0" Type=".wrt" Specification="apple" Container="ilst data" Version="0" Flags="0x0" >
+<WriterBox Size="0" Type=".wrt" Specification="apple" Container="ilst data" >
 </WriterBox>
-<ToolBox Size="0" Type=".too" Specification="apple" Container="ilst data" Version="0" Flags="0x0" >
+<ToolBox Size="0" Type=".too" Specification="apple" Container="ilst data" >
 </ToolBox>
-<CopyrightBox Size="0" Type=".cpy" Specification="apple" Container="ilst data" Version="0" Flags="0x0" >
+<CopyrightBox Size="0" Type=".cpy" Specification="apple" Container="ilst data" >
 </CopyrightBox>
-<DescriptionBox Size="0" Type=".des" Specification="apple" Container="ilst data" Version="0" Flags="0x0" >
+<DescriptionBox Size="0" Type=".des" Specification="apple" Container="ilst data" >
 </DescriptionBox>
-<GenreBox Size="0" Type=".gen" Specification="apple" Container="ilst data" Version="0" Flags="0x0" >
+<GenreBox Size="0" Type=".gen" Specification="apple" Container="ilst data" >
 </GenreBox>
-<GroupBox Size="0" Type=".grp" Specification="apple" Container="ilst data" Version="0" Flags="0x0" >
+<GroupBox Size="0" Type=".grp" Specification="apple" Container="ilst data" >
 </GroupBox>
-<GenreBox Size="0" Type="gnre" Specification="apple" Container="ilst data" Version="0" Flags="0x0" >
+<GenreBox Size="0" Type="gnre" Specification="apple" Container="ilst data" >
 </GenreBox>
-<DiskBox Size="0" Type="disk" Specification="apple" Container="ilst data" Version="0" Flags="0x0"  DiskNumber="0" NbDisks="0" >
+<DiskBox Size="0" Type="disk" Specification="apple" Container="ilst data"  DiskNumber="0" NbDisks="0" >
 </DiskBox>
-<TrackNumberBox Size="0" Type="trkn" Specification="apple" Container="ilst data" Version="0" Flags="0x0"  TrackNumber="0" NbTracks="0" >
+<TrackNumberBox Size="0" Type="trkn" Specification="apple" Container="ilst data"  TrackNumber="0" NbTracks="0" >
 </TrackNumberBox>
-<TempoBox Size="0" Type="tmpo" Specification="apple" Container="ilst data" Version="0" Flags="0x0"  BPM="0" >
+<TempoBox Size="0" Type="tmpo" Specification="apple" Container="ilst data"  BPM="0" >
 </TempoBox>
-<CompilationBox Size="0" Type="cpil" Specification="apple" Container="ilst data" Version="0" Flags="0x0"  IsCompilation="no" >
+<CompilationBox Size="0" Type="cpil" Specification="apple" Container="ilst data"  IsCompilation="no" >
 </CompilationBox>
-<CoverArtBox Size="0" Type="covr" Specification="apple" Container="ilst data" Version="0" Flags="0x0" >
+<CoverArtBox Size="0" Type="covr" Specification="apple" Container="ilst data" >
 </CoverArtBox>
-<iTunesSpecificBox Size="0" Type="----" Specification="apple" Container="ilst data" Version="0" Flags="0x0" >
+<iTunesSpecificBox Size="0" Type="----" Specification="apple" Container="ilst data" >
 </iTunesSpecificBox>
 <AC3SampleEntryBox Size="0" Type="ac-3" Specification="dolby" Container="stsd"  DataReferenceIndex="0" SampleRate="0" Channels="2" BitsPerSample="16">
 </AC3SampleEntryBox>
@@ -920,43 +1028,45 @@
 </AC3SpecificBox>
 <EC3SpecificBox Size="0" Type="dec3" Specification="dolby" Container="ec-3" nb_streams="0" data_rate="0">
 </EC3SpecificBox>
-<AdobeBootstrapBox Size="0" Type="abst" Specification="adobe" Container="file" Version="0" Flags="0x0" BootstrapinfoVersion="0" Profile="0" Live="0" Update="0" TimeScale="0" CurrentMediaTime="0" SmpteTimeCodeOffset="0" >
+<AdobeBootstrapBox Size="0" Type="abst" Version="0" Flags="0" Specification="adobe" Container="file" BootstrapinfoVersion="0" Profile="0" Live="0" Update="0" TimeScale="0" CurrentMediaTime="0" SmpteTimeCodeOffset="0" >
 </AdobeBootstrapBox>
-<AdobeFragmentRandomAccessBox Size="0" Type="afra" Specification="adobe" Container="file" Version="0" Flags="0x0" LongIDs="0" LongOffsets="0" TimeScale="0">
+<AdobeFragmentRandomAccessBox Size="0" Type="afra" Version="0" Flags="0" Specification="adobe" Container="file" LongIDs="0" LongOffsets="0" TimeScale="0">
 </AdobeFragmentRandomAccessBox>
-<AdobeSegmentRunTableBox Size="0" Type="asrt" Specification="adobe" Container="abst" Version="0" Flags="0x0" >
+<AdobeSegmentRunTableBox Size="0" Type="asrt" Version="0" Flags="0" Specification="adobe" Container="abst" >
 </AdobeSegmentRunTableBox>
-<AdobeFragmentRunTableBox Size="0" Type="afrt" Specification="adobe" Container="abst" Version="0" Flags="0x0" TimeScale="0">
+<AdobeFragmentRunTableBox Size="0" Type="afrt" Version="0" Flags="0" Specification="adobe" Container="abst" TimeScale="0">
 </AdobeFragmentRunTableBox>
-<AdobeDRMKeyManagementSystemBox Size="0" Type="adkm" Specification="adobe" Container="schi" Version="1" Flags="0x0" >
+<AdobeDRMKeyManagementSystemBox Size="0" Type="adkm" Version="0" Flags="0" Specification="adobe" Container="schi" >
 </AdobeDRMKeyManagementSystemBox>
-<AdobeDRMHeaderBox Size="0" Type="ahdr" Specification="adobe" Container="adkm" Version="2" Flags="0x0" >
+<AdobeDRMHeaderBox Size="0" Type="ahdr" Version="0" Flags="0" Specification="adobe" Container="adkm" >
 </AdobeDRMHeaderBox>
-<AdobeDRMAUFormatBox  Size="0" Type="adaf" Specification="adobe" Container="adkm" Version="0" Flags="0x0" SelectiveEncryption="0" IV_length="0">
+<AdobeDRMAUFormatBox  Size="0" Type="adaf" Version="0" Flags="0" Specification="adobe" Container="adkm" SelectiveEncryption="0" IV_length="0">
 </AdobeDRMAUFormatBox>
-<AdobeStdEncryptionParamsBox Size="0" Type="aprm" Specification="adobe" Container="ahdr" Version="1" Flags="0x0" >
+<AdobeStdEncryptionParamsBox Size="0" Type="aprm" Version="0" Flags="0" Specification="adobe" Container="ahdr" >
 </AdobeStdEncryptionParamsBox>
-<AdobeEncryptionInfoBox Size="0" Type="aeib" Specification="adobe" Container="aprm" Version="1" Flags="0x0" EncryptionAlgorithm="(null)" KeyLength="0">
+<AdobeEncryptionInfoBox Size="0" Type="aeib" Version="0" Flags="0" Specification="adobe" Container="aprm" EncryptionAlgorithm="(null)" KeyLength="0">
 </AdobeEncryptionInfoBox>
-<AdobeKeyInfoBox Size="0" Type="akey" Specification="adobe" Container="aprm" Version="1" Flags="0x0" >
+<AdobeKeyInfoBox Size="0" Type="akey" Version="0" Flags="0" Specification="adobe" Container="aprm" >
 </AdobeKeyInfoBox>
 <AdobeFlashAccessParamsBox Size="0" Type="flxs" Specification="adobe" Container="akey" >
 </AdobeFlashAccessParamsBox>
-<TrickPlayBox Size="0" Type="trik" Specification="dece" Container="traf" Version="0" Flags="0x0" >
+<TrickPlayBox Size="0" Type="trik" Version="0" Flags="0" Specification="dece" Container="traf" >
 <TrickPlayBoxEntry pic_type="" dependency_level=""/>
 </TrickPlayBox>
-<BaseLocationBox Size="0" Type="bloc" Specification="dece" Container="file" Version="0" Flags="0x0" baseLocation="" basePurlLocation="">
+<BaseLocationBox Size="0" Type="bloc" Version="0" Flags="0" Specification="dece" Container="file" baseLocation="" basePurlLocation="">
 </BaseLocationBox>
-<AssetInformationBox Size="0" Type="ainf" Specification="dece" Container="moov" Version="0" Flags="0x1" profile_version="0" APID="(null)">
+<AssetInformationBox Size="0" Type="ainf" Version="0" Flags="0" Specification="dece" Container="moov" profile_version="0" APID="(null)">
 </AssetInformationBox>
-<PIFFTrackEncryptionBox Size="0" Type="uuid" UUID="{00000000-00000000-00000000-00000000}" Specification="smooth" Container="schi" Version="0" Flags="0x0" AlgorithmID="0" IV_size="0" KID="0x00000000000000000000000000000000">
+<AssetInformationBox Size="0" Type="ainf" Version="0" Flags="1" Specification="dece" Container="moov" profile_version="0" APID="(null)">
+</AssetInformationBox>
+<PIFFTrackEncryptionBox Size="0" Type="uuid" UUID="{00000000-00000000-00000000-00000000}" Version="0" Flags="0" Specification="smooth" Container="schi" AlgorithmID="0" IV_size="0" KID="0x00000000000000000000000000000000">
 </PIFFTrackEncryptionBox>
-<PIFFSampleEncryptionBox Size="0" Type="uuid" UUID="{00000000-00000000-00000000-00000000}" Specification="smooth" Container="trak traf" sampleCount="0">
+<PIFFSampleEncryptionBox Size="0" Type="uuid" UUID="{00000000-00000000-00000000-00000000}" Version="0" Flags="0" Specification="smooth" Container="trak traf" sampleCount="0">
 <PIFFSampleEncryptionEntry IV="" SubsampleCount="">
 <PIFFSubSampleEncryptionEntry NumClearBytes="" NumEncryptedBytes=""/>
 </PIFFSampleEncryptionEntry>
 </PIFFSampleEncryptionBox>
-<PIFFProtectionSystemHeaderBox Size="0" Type="uuid" UUID="{00000000-00000000-00000000-00000000}" Specification="smooth" Container="moov moof" Version="0" Flags="0x0" SystemID="0x00000000000000000000000000000000" PrivateData="0x">
+<PIFFProtectionSystemHeaderBox Size="0" Type="uuid" UUID="{00000000-00000000-00000000-00000000}" Version="0" Flags="0" Specification="smooth" Container="moov moof" SystemID="0x00000000000000000000000000000000" PrivateData="0x">
 </PIFFProtectionSystemHeaderBox>
 <MSSTimeExtensionBox Size="0" Type="uuid" UUID="{00000000-00000000-00000000-00000000}" Specification="smooth" Container="traf" AbsoluteTime="0" FragmentDuration="0">
 <FullBoxInfo Version="0" Flags="0"/>
@@ -966,9 +1076,6 @@
 <UUIDBox Size="0" Type="uuid" UUID="{00000000-00000000-00000000-00000000}" Specification="smooth" Container="traf" >
 </UUIDBox>
 <Box Type="emsg" Specification="dash"/>
-<Box Type="encf" Specification="p12"/>
-<Box Type="encm" Specification="p12"/>
-<Box Type="enct" Specification="p12"/>
 <Box Type="m4ae" Specification="p14"/>
 <Box Type="meco" Specification="p12"/>
 <Box Type="mere" Specification="p12"/>
@@ -976,7 +1083,6 @@
 <Box Type="mha2" Specification="mpeg-h"/>
 <Box Type="mhm1" Specification="mpeg-h"/>
 <Box Type="mhm2" Specification="mpeg-h"/>
-<Box Type="mvc1" Specification="p15"/>
 <Box Type="mvc2" Specification="p15"/>
 <Box Type="mvif" Specification="p15"/>
 <Box Type="pm2t" Specification="p12"/>
@@ -994,7 +1100,6 @@
 <Box Type="ecam" Specification="p15"/>
 <Box Type="icam" Specification="p15"/>
 <Box Type="leqi" Specification="drc"/>
-<Box Type="mvcC" Specification="p15"/>
 <Box Type="mvcP" Specification="p15"/>
 <Box Type="pdc1" Specification="drc"/>
 <Box Type="pdi1" Specification="drc"/>
@@ -1012,4 +1117,21 @@
 <Box Type="uriI" Specification="p12"/>
 <Box Type="vsib" Specification="p15"/>
 <Box Type="vwid" Specification="p15"/>
+<Box Type="lsel" Specification="heif"/>
+<Box Type="imir" Specification="heif"/>
+<Box Type="m4ae" Specification="audio"/>
+<Box Type="rtng" Specification="3gpp"/>
+<Box Type="depi" Specification="unknown"/>
+<Box Type="j420" Specification="unknown"/>
+<Box Type="junk" Specification="unknown"/>
+<Box Type="fec " Specification="unknown"/>
+<Box Type="tapt" Specification="unknown"/>
+<Box Type="clef" Specification="unknown"/>
+<Box Type="prof" Specification="unknown"/>
+<Box Type="enof" Specification="unknown"/>
+<Box Type="vsmi" Specification="unknown"/>
+<Box Type="cami" Specification="unknown"/>
+<Box Type="vcmM" Specification="unknown"/>
+<Box Type="vcmC" Specification="unknown"/>
+<Box Type="agsm" Specification="unknown"/>
 </Boxes>
