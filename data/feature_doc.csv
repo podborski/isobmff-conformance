@@ -1,0 +1,97 @@
+﻿Test feature groups and tests;Documentation
+;
+;
+;
+;
+Part 12;
+Box-structure;This set of tests covers the basic box structure which is common to all the specifications in the family.
+Ordinary box;Regular boxes with 4CC, no UUID, and a 32-bit explicit length
+64-bit length;Box(es) with 64-bit lengths (typically mdat)
+implied length (size=0);Box with the length running to end of file (last box)
+FTYP box;Basic FTYP box handling
+UUID box;A user box using a UUID type (should be ignored if not recognized)
+Free/skip;Free space (two box types)
+Unknown box;A box with an 'unknown' code is present in the file and should be ignored.  The box type used for testing could be one of 'junk', 'mess', etc.
+;
+Movies;This set of tests covers files with 'moov' atoms, used in MP4 and AVC.
+Movie box;A movie box with all its required contents, and at least one track.
+normal' order (moov-mdat);Boxes in the 'usual' order for reading, and in the recommended order inside
+late' order (mdat first);The 'mdat' first and the 'moov' late, and boxes in the 'moov' in funny order.
+64-bit mv/tr/md headers;There are 64-bit versions of the movie, track, and media headers, that allow long durations and dates after 2040.
+track enabled bit;The track-enabled bit in the track header.
+track reference;Track references of some kind are used.
+track group;Track groups of some kind are used
+edit list;An edit list is used on at least one track, and some material in the media is edited out.
+video track;There is a video track with video headers
+audio track;There is an audio track with audio headers
+meta-data track;A timed meta-data track
+unknown track type;An unknown type of track should be ignored (handler='junk' etc.)
+unknown codec type;An unknown audio or video codec is used (sample entry name is 'junk' etc.)
+image track (no sync table);A track with a single image in it.
+data ref to other file;Data reference atoms using URLs or URNs are used to refer to media in other files.
+compact stz2;The compact sample size box is used.
+64-bit chunks;The 64-bit version of the chunk offset table is used, and the chunk offsets have non-zero bits in their upper 32 bits.
+ctts offsets;At least one track uses composition re-ordering.
+sync table;At least one track (video, probably) has sync samples marked
+pad bits;At least one track (audio, probably) has a padding bits table for non byte-lengthed Aus
+degr. Priority;A degradation priority table is used (note that the meaning of the priority values is not established by standard).
+sample groups;A sample group description and sample to group tables are present.
+pre-roll group;The pre-roll sample group is present ('roll')
+ipmp control;The IPMP control box is present
+sub-sample information;The sub-sample information box (sub-sample structure) is present
+Protected streams (basic);Basic protected streams (e.g. ISMA or OMA) are present
+Protected streams (IPMP);Protected streams using the IPMP protection boxes are present
+sample scale box;The sample scale box (presenting video hint) is present
+progressive dnload box;The progressive download hitn box is present
+shadow sync;the shadow sync box (deprecated) is present
+Copyright box;A user-data copyright statement is present
+Interleaved data;The media data is interleaved on a sensible scale (e.g. .5 second) and in order
+Two or more mdats;two or more mdat boxes are present
+sample dependency;The sample dependency table is present
+several sample description;There is one track ujsing several sample entries, not just one
+;
+movie fragments;Movie fragments boxes are tested
+Movie fragment box;Basic movie fragments (movie extends, moof, traf, and trun)
+mov. Ext header;The optional movie extends header is present
+fragment random access;The optional Fragment random access box is present
+64-bit fragments;Fragments are used in combination with 64-bit offsets
+;
+Meta-boxes;This section tests enhanced meta-data (meta boxes)
+file-level;Meta box at file level
+movie-level;Meta box at movie level
+track-level;Meta box at track level
+basic protected meta-data;Some meta-data is protected using the basic techniques
+ipmp protected meta-data;Some meta-data is protected using IPMP boxes
+data refs;Some meta-data is in external files and linked by data references
+item naming etc.;Some items use the item information (name etc.) box
+;
+Hint tracks;This section tests hint tracks.
+RTP hint tracks;Regular RTP hint tracks are present.  They should be ignored for local playback.
+hint track setup;Hint track headers etc. are present
+sdp boxes (moov and track);SDP information (in user-data) is present
+hint stats boxes;Optional hint statistics are present
+RTP immediate constructor;The various forms of packet constructors are tested.
+RTP sample contructor with track reference;The various forms of packet constructors are tested.
+RTP sample contructor on self track;The various forms of packet constructors are tested.
+RTP sampleDescription constructor;The various forms of packet constructors are tested.
+;
+Part 14 MP4;ISO files containing MPEG-4 media and systems streams
+Systems tracks etc.;OD, BIFS, OCI tracks may be present
+IOD box;An initial object descriptor is present in an IOD box
+mp4a sample entry;MPEG-4 audio
+mp4v sample entry;MPEG-4 video
+mp4s sample entry;MPEG-4 systems
+Single BIFS + IOD;Simple scene (IOD plus a BIFS track)
+BIFS + OD;Simple sub-scene (OD in the IOD box, BIFS track)
+BIFS+OD+video;
+BIFS+OD+video, sync reference=self on video;
+BIFS+OD+Video+audio, 2 timelines (BIFS/OD and AV);
+BIFS+BIFS + decoding track reference;
+IPIR track reference;
+;
+Part 15 NAL unit video;This section has AVC video streams present
+avc1 sample entry;Simple AVC streams using parameter sets in the sample entry
+layering and subseq grps;Sample groups are used for layering and sub-sequences
+switch tracks;Tracks for switch pictures are present, with their track references
+separate param stream;A separate parameter set stream is used.
+hvc1 sample entry;Simple HEVC streams using parameter sets in the sample entry

@@ -1,0 +1,154 @@
+﻿Company/Organization;SUM;Ericsson;Ericsson;Ericsson;Ericsson;Apple;Apple;Apple;Apple;Apple;Apple;Apple;Apple;Apple;Apple;Apple;Fraunhofer IIS;Fraunhofer IIS;Telecom ParisTech;Telecom ParisTech;Telecom ParisTech;Telecom ParisTech;Telecom ParisTech;Telecom ParisTech;Telecom ParisTech;Telecom ParisTech;Telecom ParisTech;Telecom ParisTech;Telecom ParisTech;Telecom ParisTech;Telecom ParisTech;Klagenfurt University;Nokia;Nokia;Nokia;panasonic;KDDI;Ericsson;Ericsson;Ericsson;Ericsson;Nokia;Nokia;Nokia;Nokia;Nokia;Nokia;Telecom ParisTech;Telecom ParisTech
+File Concept;;Simple Audio;Simple Audio;Simple Hinted;Simple Hinted;Basic MP4v/a;Hinted;Protected;Fragmented;AVC File;Multi-file;Oddities;Edits;Group;Unk video;Large;Proteced A/V;Simple A/V;Simple;dref_edts_img;hinted;bifs_video;bifs_video_protected;bifs;bifs_sprite;bifs_carousel;text;fragments;metas;long;large;timed metadata;file delivery with 1 hint track, no FEC;file delivery with >1 hint track, no FEC;file delivery with >1 hint track, MBMS FEC;fragment random access;fragment random access;progressive download;rate share, multiple tracks;Sample groups, temporal levels, subtracks;Restriced video;track groups and hvc1 sample entry;alternative startup sequence sample group, RAP sample group, and  hvc1 sample entry;Tile sub-sample information box for HEVC;Slice sub-sample information box for HEVC;RTP and RTCP reception hint tracks;Extractors in 'hvc2' track;L-HEVC Conformance (spatial and multiview layered);HEVC Tiled Tracks
+file name/number;;male_amr122.3gp;male_amr122DTX.3gp;female_amr67_hinted.3gp;female_amr67DTX_hinted.3gp;a1;a2;a3;a4;a5;a6;a7;a8;a9;a10;a11;f2.mp4;f1.mp4;1;2;3;4;5;6;7;8;9;10;12;13;14;timed-metadata.mp4;compact-no-code-fec-1.iso3;compact-no-code-fec-2.iso3;mbms-fec.iso3;fragment-random-access-1.mp4;fragment-random-access-2.mp4;pdin_example.3gp;rs_example.3gp;sg-tl-st.mp4;restricted.mp4;trgr_hvc1.mp4;alst_hvc1.mp4;subs_tile_hvc1.mp4;subs_slice_hvc1.mp4;rtp_rtcp_reception_hint_tracks_v2.mp4;hvc2_extractors.mp4;shvc_* and mhvc_*;hevc_tiles_*
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Part 12;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Box-structure;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Ordinary box; ;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;;x;x;x;x;x;x;x;x;x;;;;;;;x;x
+64-bit length; ;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;
+implied length (size=0); ;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+FTYP box; ;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;;x;x;x;x;x;x;x;x;x;;;;;;;x;x
+UUID box; ;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Free/skip; ;;;;;;;;;;;x;;;;;;;x;x;x;x;x;x;x;x;x;x;x;x;x;;;;;;;;;x;x;;;;;;;;
+Unknown box; ;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Movies;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Movie box; ;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;;x;x;;x;x;x;;;x;x;x;x;;;;;;;x;x
+normal' order (moov-mdat); ;;;;;;;;;;;;;;x;;x;x;x;x;x;x;x;;;x;x;x;x;x;x;;;;;x;x;x;x;x;;;;;;;;x;x
+late' order (mdat first); ;;;;;;;;;;;;;;;;;;;;;;;x;x;;;;;;;;;;;;;;;;x;;;;;;;;
+64-bit mv/tr/md headers; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;
+track enabled bit; ;;;;;;;;;;;x;;;;;;;x;x;x;x;x;x;x;x;x;x;x;x;x;;;;;x;x;x;x;;;;;;;;;x;x
+track reference; ;x;x;x;x;;x;;;;;;;;;;;;x;x;x;x;x;;x;;;;;;;;;;;;;;;;;;;;;;;x;x
+edit list; ;;;;;;;;;;;;x;x;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+video track; ;x;x;x;x;x;x;x;x;x;x;;;;x;;x;x;x;;x;x;x;;;;;x;;;x;;;;;x;x;x;x;x;x;;;;;x;x;x;x
+audio track; ;x;x;x;x;x;x;x;x;x;x;x;x;x;;x;x;x;x;x;;;;;;;;x;;;;;;;;x;;;x;;;;;;;x;;;
+meta-data track; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+unknown track type; ;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;
+unknown codec type; ;;;;;;;;;;;;;;x;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;
+track selection box; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;
+image track (no sync table); ;;;;;;;;;;;;;;;;;;;x;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;
+data ref to other file; ;;;;;;;;;;x;;;;;;;;;x;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;
+compact stz2; ;;;;;;;;;;;;;;;;;;;x;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;
+64-bit chunks; ;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;
+ctts offsets; ;;;;;;;;;x;;;;;;;;;x;;x;x;x;;;;;;;;x;;;;;;x;;;;;;;;;;;x;x
+signed CTTS offsets;---;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+track fragment decode time; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;x;;;;;;;;
+sync table; ;x;x;x;x;x;x;x;x;x;x;x;x;x;;;;;x;;x;x;x;x;x;x;;;;;x;;;;;x;;x;x;;x;;;;;;;x;x
+pad bits; ;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+degr. Priority;---;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+sample groups; ;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;x;x;;;;;;;;;
+pre-roll group; ;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+rate share group; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;
+Alt. startup properties and sample group; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+RAP sample group; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+Temporal level sample group; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;
+ipmp control;---;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+sub-sample information; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;x;;;;
+Protected streams (basic); ;;;;;;;x;;;;;;;;;x;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;
+Protected streams (IPMP);---;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+sample scale box;---;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+progressive dnload box; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;
+shadow sync; ;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;
+Copyright box; ;;;;;;;;;;;;;;;;;;x;x;x;x;x;x;x;x;x;x;;x;x;;;;;;;;;;;;;;;;;;
+Interleaved data; ;;;;;x;;;;;;;;;;;x;x;x;x;x;;;;;;;x;;;;;;;;;;;x;;;;;;;;;;
+Two or more mdats; ;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;
+sample dependency; ;;;;;;;;;x;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;
+several sample description; ;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Level assignment; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;x;;;;;;;;
+Track groups; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;
+Sub-sample Information;---;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Sample Auxiliary Information;---;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Sub-tracks; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;x;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Restricted sample entry; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;
+Encrypted sample entry;---;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+movie fragments;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Movie fragment box; ;;;;;;;;x;;;;;;;;;;;;;;;;;;;x;;;;;;;;x;x;;;;;;;;;;;;
+mov. Ext header; ;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;x;x;;;;;;;;;;;;
+fragment random access; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;x;;;;;;;;;;;;
+64-bit fragments;---;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+segment type box;---;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+segment index box; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;
+sub-segment index box; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;
+Producer reference time;---;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Meta-boxes;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+file-level; ;;;;;;;;;;;;;;;;;;;;;;x;;;;;;x;;;;x;x;x;;;;;;;;;;;;;;
+movie-level; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;
+track-level; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;
+basic protected meta-data;---;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+ipmp protected meta-data;---;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+data refs; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;
+item naming etc.; ;;;;;;;;;;;;;;;;;;;;;;x;;;;;;x;;;;x;x;x;;;;;;;;;;;;;;
+additional meta-data & relation boxes;---;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+File delivery extensions;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+FD hint tracks; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;x;x;;;;;;;;;;;;;;
+FEC reservoir; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+FD session group box; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;x;;;;;;;;;;;;;;
+Group ID to name box;---;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Hint tracks;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+RTP hint tracks; ;;;x;x;;x;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+hint track setup; ;;;;;;x;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;x;;;
+sdp boxes (moov and track); ;;;;;;x;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;x;;;
+hint stats boxes; ;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;x;;;
+RTP immediate constructor; ;;;;;;x;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+RTP sample contructor with track reference; ;;;;;;x;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+RTP sample contructor on self track; ;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;x;;;
+RTP sampleDescription constructor;---;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+MPEG-2 Transport hint track;---;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+RTP etc. reception hint track;---;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Part 14 MP4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Systems tracks etc.; ;;;;;;;;;;;;;;;;;;x;x;;x;x;x;x;x;;;;;;;;;;;;;;;;;;;;;;;
+IOD box; ;;;;;x;x;x;x;;;;;x;;x;x;x;x;x;x;x;x;x;x;x;;;;;;;;;;;;;;;;;;;;;;;
+mp4a sample entry; ;;;;;x;x;;;;;;;;;;x;x;x;x;;;;;;;;;;;;;;;;x;;;x;;;;;;;;;;
+mp4v sample entry; ;;;;;x;x;;;;;;;;;;;;x;x;x;x;x;;;;;;;;;;;;;x;x;;;;;;;;;;;;
+mp4s sample entry; ;;;;;x;x;;;;;;;;;;;;x;x;;x;x;x;x;x;;;;;;;;;;;;;;;;;;;;;;;
+Single BIFS + IOD; ;;;;;;;;;;;;;;;;;;;;;;;x;;x;;;;;;;;;;;;;;;;;;;;;;;
+BIFS + OD; ;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;
+BIFS+OD+video; ;;;;;;;;;;;;;;;;;;;;;x;x;;;;;;;;;;;;;;;;;;;;;;;;;;
+BIFS+OD+video, sync reference=self on video; ;;;;;;;;;;;;;;;;;;;;;x;x;;;;;;;;;;;;;;;;;;;;;;;;;;
+BIFS+OD+Video+audio, 2 timelines (BIFS/OD and AV); ;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+BIFS+BIFS + decoding track reference; ;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;
+IPIR track reference;---;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Part 15 NAL unit video;---;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+avc1 sample entry; ;;;;;;;;;x;;;;;;;x;x;;;;;;;;;;;;;;;;;;;;x;x;x;;;;;;;;x;
+layering and subseq grps; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;
+switch tracks;---;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+separate param stream;---;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+avc2 sample entry;---;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+avc3 sample entry;---;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;
+avc4 sample entry;---;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+svc1 sample entry;---;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+svc2 sample entry;---;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mvc1 sample entry;---;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mvc2 sample entry;---;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mvc3 sample entry;---;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mvc4 sample entry;---;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+hev1 sample entry;---;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;x
+hvc1 sample entry; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;x;;;;x;x;x
+hev2 sample entry;---;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;x
+hvc2 sample entry;---;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;x;x
+lhe1 sample entry;---;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;
+lhv1 sample entry;---;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;
+hvt1 sample entry;---;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+lht1 sample entry;---;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Extractors;---;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;X;
+Aggregators;---;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Temporal Meta-data;---;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Implicit Reconstruction; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X;
+;---;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+sbas track reference; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X;
+scal track reference; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X;
+oinf, linf and oref track reference; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X;
+tbas and sabt track reference; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X
