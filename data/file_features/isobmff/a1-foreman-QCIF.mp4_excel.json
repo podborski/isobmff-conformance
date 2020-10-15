@@ -1,0 +1,17 @@
+{
+  "company": "Apple",
+  "concept": "Basic MP4v/a",
+  "features": [
+    "Ordinary box",
+    "FTYP box",
+    "Movie box",
+    "video track",
+    "audio track",
+    "sync table",
+    "Interleaved data",
+    "IOD box",
+    "mp4a sample entry",
+    "mp4v sample entry",
+    "mp4s sample entry"
+  ]
+}

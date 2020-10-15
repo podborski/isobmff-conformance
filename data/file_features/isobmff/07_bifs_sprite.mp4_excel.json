@@ -1,0 +1,21 @@
+{
+  "company": "Telecom ParisTech",
+  "concept": "bifs_sprite",
+  "features": [
+    "Ordinary box",
+    "FTYP box",
+    "Free/skip",
+    "Movie box",
+    "late' order (mdat first)",
+    "track enabled bit",
+    "track reference",
+    "sync table",
+    "shadow sync",
+    "Copyright box",
+    "Systems tracks etc.",
+    "IOD box",
+    "mp4s sample entry",
+    "BIFS + OD",
+    "BIFS+BIFS + decoding track reference"
+  ]
+}

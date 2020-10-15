@@ -1,0 +1,25 @@
+{
+  "company": "Telecom ParisTech",
+  "concept": "Simple",
+  "features": [
+    "Ordinary box",
+    "FTYP box",
+    "Free/skip",
+    "Movie box",
+    "normal' order (moov-mdat)",
+    "track enabled bit",
+    "track reference",
+    "video track",
+    "audio track",
+    "ctts offsets",
+    "sync table",
+    "Copyright box",
+    "Interleaved data",
+    "Systems tracks etc.",
+    "IOD box",
+    "mp4a sample entry",
+    "mp4v sample entry",
+    "mp4s sample entry",
+    "BIFS+OD+Video+audio, 2 timelines (BIFS/OD and AV)"
+  ]
+}

@@ -4,7 +4,6 @@
 .LSOverride
 
 ISOBMFF-Conformance
-data/file_features
 conformance_report.html
 
 # Node

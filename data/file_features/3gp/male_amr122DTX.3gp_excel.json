@@ -1,0 +1,13 @@
+{
+  "company": "Ericsson",
+  "concept": "Simple Audio",
+  "features": [
+    "Ordinary box",
+    "FTYP box",
+    "Movie box",
+    "track reference",
+    "video track",
+    "audio track",
+    "sync table"
+  ]
+}

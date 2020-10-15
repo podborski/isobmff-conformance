@@ -1,0 +1,21 @@
+{
+  "company": "Telecom ParisTech",
+  "concept": "HEVC Tiled Tracks",
+  "features": [
+    "Ordinary box",
+    "FTYP box",
+    "Movie box",
+    "normal' order (moov-mdat)",
+    "track enabled bit",
+    "track reference",
+    "video track",
+    "ctts offsets",
+    "sync table",
+    "hev1 sample entry",
+    "hvc1 sample entry",
+    "hev2 sample entry",
+    "hvc2 sample entry",
+    "hvt1 sample entry",
+    "tbas and sabt track reference"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "company": "Apple",
+  "concept": "Group",
+  "features": [
+    "Ordinary box",
+    "FTYP box",
+    "Movie box",
+    "edit list",
+    "audio track",
+    "sync table",
+    "sample groups",
+    "pre-roll group",
+    "IOD box"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "company": "Nokia",
+  "concept": "file delivery with 1 hint track, no FEC",
+  "features": [
+    "Ordinary box",
+    "FTYP box",
+    "Movie box",
+    "file-level",
+    "item naming etc.",
+    "FD hint tracks"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "company": "Telecom ParisTech",
+  "concept": "large",
+  "features": [
+    "Ordinary box",
+    "64-bit length",
+    "FTYP box",
+    "Free/skip",
+    "Movie box",
+    "normal' order (moov-mdat)",
+    "track enabled bit",
+    "video track",
+    "64-bit chunks",
+    "ctts offsets",
+    "sync table",
+    "Copyright box"
+  ]
+}

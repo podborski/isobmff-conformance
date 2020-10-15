@@ -1,0 +1,10 @@
+{
+  "company": "Nokia",
+  "concept": "Extractors in 'hvc2' track",
+  "features": [
+    "video track",
+    "hvc1 sample entry",
+    "hvc2 sample entry",
+    "Extractors"
+  ]
+}

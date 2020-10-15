@@ -1,0 +1,18 @@
+{
+  "company": "panasonic",
+  "concept": "fragment random access",
+  "features": [
+    "Ordinary box",
+    "FTYP box",
+    "normal' order (moov-mdat)",
+    "track enabled bit",
+    "video track",
+    "audio track",
+    "sync table",
+    "Movie fragment box",
+    "mov. Ext header",
+    "fragment random access",
+    "mp4a sample entry",
+    "mp4v sample entry"
+  ]
+}

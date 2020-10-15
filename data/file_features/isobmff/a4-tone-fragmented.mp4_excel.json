@@ -1,0 +1,14 @@
+{
+  "company": "Apple",
+  "concept": "Fragmented",
+  "features": [
+    "Ordinary box",
+    "FTYP box",
+    "Movie box",
+    "video track",
+    "audio track",
+    "sync table",
+    "Movie fragment box",
+    "IOD box"
+  ]
+}

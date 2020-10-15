@@ -1,0 +1,26 @@
+{
+  "company": "Telecom ParisTech",
+  "concept": "bifs_video_protected",
+  "features": [
+    "Ordinary box",
+    "FTYP box",
+    "Free/skip",
+    "Movie box",
+    "normal' order (moov-mdat)",
+    "track enabled bit",
+    "track reference",
+    "video track",
+    "ctts offsets",
+    "sync table",
+    "Protected streams (basic)",
+    "Copyright box",
+    "file-level",
+    "item naming etc.",
+    "Systems tracks etc.",
+    "IOD box",
+    "mp4v sample entry",
+    "mp4s sample entry",
+    "BIFS+OD+video",
+    "BIFS+OD+video, sync reference=self on video"
+  ]
+}

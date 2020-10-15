@@ -1,0 +1,15 @@
+{
+  "company": "Ericsson",
+  "concept": "progressive download",
+  "features": [
+    "Ordinary box",
+    "FTYP box",
+    "Movie box",
+    "normal' order (moov-mdat)",
+    "track enabled bit",
+    "video track",
+    "sync table",
+    "progressive dnload box",
+    "avc1 sample entry"
+  ]
+}

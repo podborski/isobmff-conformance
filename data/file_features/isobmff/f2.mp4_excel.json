@@ -1,0 +1,17 @@
+{
+  "company": "Fraunhofer IIS",
+  "concept": "Proteced A/V",
+  "features": [
+    "Ordinary box",
+    "FTYP box",
+    "Movie box",
+    "normal' order (moov-mdat)",
+    "video track",
+    "audio track",
+    "Protected streams (basic)",
+    "Interleaved data",
+    "IOD box",
+    "mp4a sample entry",
+    "avc1 sample entry"
+  ]
+}

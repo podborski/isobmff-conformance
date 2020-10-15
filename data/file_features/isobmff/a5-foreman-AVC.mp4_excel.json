@@ -1,0 +1,15 @@
+{
+  "company": "Apple",
+  "concept": "AVC File",
+  "features": [
+    "Ordinary box",
+    "FTYP box",
+    "Movie box",
+    "video track",
+    "audio track",
+    "ctts offsets",
+    "sync table",
+    "sample dependency",
+    "avc1 sample entry"
+  ]
+}

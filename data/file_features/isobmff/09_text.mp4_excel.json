@@ -1,0 +1,16 @@
+{
+  "company": "Telecom ParisTech",
+  "concept": "text",
+  "features": [
+    "Ordinary box",
+    "FTYP box",
+    "Free/skip",
+    "Movie box",
+    "normal' order (moov-mdat)",
+    "track enabled bit",
+    "unknown track type",
+    "unknown codec type",
+    "Copyright box",
+    "several sample description"
+  ]
+}

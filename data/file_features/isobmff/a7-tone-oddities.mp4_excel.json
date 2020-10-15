@@ -1,0 +1,17 @@
+{
+  "company": "Apple",
+  "concept": "Oddities",
+  "features": [
+    "Ordinary box",
+    "implied length (size=0)",
+    "FTYP box",
+    "UUID box",
+    "Free/skip",
+    "Unknown box",
+    "Movie box",
+    "track enabled bit",
+    "audio track",
+    "sync table",
+    "pad bits"
+  ]
+}

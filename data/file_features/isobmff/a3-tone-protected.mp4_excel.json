@@ -1,0 +1,14 @@
+{
+  "company": "Apple",
+  "concept": "Protected",
+  "features": [
+    "Ordinary box",
+    "FTYP box",
+    "Movie box",
+    "video track",
+    "audio track",
+    "sync table",
+    "Protected streams (basic)",
+    "IOD box"
+  ]
+}

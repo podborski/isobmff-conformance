@@ -1,0 +1,19 @@
+{
+  "company": "Telecom ParisTech",
+  "concept": "bifs_carousel",
+  "features": [
+    "Ordinary box",
+    "FTYP box",
+    "Free/skip",
+    "Movie box",
+    "normal' order (moov-mdat)",
+    "track enabled bit",
+    "sync table",
+    "Copyright box",
+    "sample dependency",
+    "Systems tracks etc.",
+    "IOD box",
+    "mp4s sample entry",
+    "Single BIFS + IOD"
+  ]
+}

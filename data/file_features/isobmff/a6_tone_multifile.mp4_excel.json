@@ -1,0 +1,13 @@
+{
+  "company": "Apple",
+  "concept": "Multi-file",
+  "features": [
+    "Ordinary box",
+    "FTYP box",
+    "Movie box",
+    "video track",
+    "audio track",
+    "data ref to other file",
+    "sync table"
+  ]
+}

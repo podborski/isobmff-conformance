@@ -1,0 +1,17 @@
+{
+  "company": "Telecom ParisTech",
+  "concept": "metas",
+  "features": [
+    "Ordinary box",
+    "FTYP box",
+    "Free/skip",
+    "normal' order (moov-mdat)",
+    "track enabled bit",
+    "image track (no sync table)",
+    "file-level",
+    "movie-level",
+    "track-level",
+    "data refs",
+    "item naming etc."
+  ]
+}
